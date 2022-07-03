@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/home_appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="30dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/home_iconMR"
+                android:layout_centerHorizontal="true"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_mr"
+                app:shapeAppearanceOverlay="@style/roundedImageView"/>
+
+        </RelativeLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/home_appBar"
+        android:text="@string/what_is_lawnicons"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="25sp"
+        android:id="@+id/what_is_lawnicons"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/product_sans_regular"
+        android:layout_below="@id/what_is_lawnicons"
+        android:textSize="17sp"
+        android:id="@+id/lawnicons_desc_1"
+        android:text="@string/lawnicons_desc_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lawnicons_desc_2"
+        android:layout_below="@id/lawnicons_desc_1"
+        android:layout_marginTop="20dp"
+        android:textSize="17sp"
+        android:text="@string/lawnicons_desc_2"
+        android:fontFamily="@font/product_sans_regular"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lawnicons_desc_3"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/lawnicons_desc_2"
+        android:text="@string/lawnicons_desc_3"
+        android:textSize="17sp"
+        android:fontFamily="@font/product_sans_regular"/>
+    
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lawnicons_desc_3"
+        android:id="@+id/requestBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape_request_button"
+        android:text="@string/request_icon"
+        android:fontFamily="@font/product_sans_regular"
+        android:textSize="25sp" />
+
+</RelativeLayout>
+
+
+

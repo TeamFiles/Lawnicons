@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Lawnicons by TeamFiles</string>
+    <string name="page_home">Home</string>
+    <string name="what_is_lawnicons">What is Lawnicons?</string>
+    <string name="lawnicons_desc_1">Lawnicons by TeamFiles TM is the upgrade you need to your customization.</string>
+    <string name="lawnicons_desc_2">We have added more and more icons that have been requested by you.</string>
+    <string name="lawnicons_desc_3">Missy miss your favourite icon? Click on the button below:</string>
+    <string name="request_icon">Request Icon</string>
+    <string name="page_about">About</string>
+    <string name="about_title">Contributors</string>
+    <string name="install_browser">Please install a browser.</string>
+</resources>
