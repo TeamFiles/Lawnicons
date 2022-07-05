@@ -38,9 +38,11 @@ public class ContributorsRecViewAdapter extends RecyclerView.Adapter<Contributor
 
     @Override
     public void onBindViewHolder(@NonNull ContributorsRecViewAdapter.ViewHolder holder, int position) {
-
         holder.contributorName.setText(contributors.get(position).getName());
-//        holder.contributorRole.setText(contributors.get(position).getRole());
+        String role = contributors.get(position).getRole();
+        if(role!=null) {
+            holder.contributorRole.setText(role);
+        }
         holder.contributorAvatar.setImageDrawable(contributors.get(position).getAvatar());
 
         holder.parent.setOnClickListener(new View.OnClickListener() {
@@ -64,11 +66,13 @@ public class ContributorsRecViewAdapter extends RecyclerView.Adapter<Contributor
     public class ViewHolder extends RecyclerView.ViewHolder {
 
         private TextView contributorName;
+        private TextView contributorRole;
         private ImageView contributorAvatar;
         private RelativeLayout parent;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             contributorName = itemView.findViewById(R.id.contributorName);
+            contributorRole = itemView.findViewById(R.id.contributorRole);
             contributorAvatar = itemView.findViewById(R.id.contributorAvatar);
             parent = itemView.findViewById(R.id.conListItem);
         }

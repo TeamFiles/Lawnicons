@@ -46,12 +46,12 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         switch(item.getItemId()){
 
             case R.id.page_home:
-                getSupportFragmentManager().beginTransaction().replace(R.id.conatiner, homeFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
                 bottomNav.setItemActiveIndicatorEnabled(true);
                 break;
 
             case R.id.page_about:
-                getSupportFragmentManager().beginTransaction().replace(R.id.conatiner, aboutFragment).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, aboutFragment).commit();
                 bottomNav.setItemActiveIndicatorEnabled(true);
                 break;
 

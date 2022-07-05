@@ -12,30 +12,40 @@
     <com.google.android.material.card.MaterialCardView
         style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="60dp"
+        android:elevation="0dp"
         app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="false"
-        app:contentPadding="5dp"
-        android:elevation="0dp">
+        app:contentPadding="5dp">
 
 
         <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/contributorAvatar"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@color/ic_launcher_background"
             app:shapeAppearanceOverlay="@style/roundedImageView" />
 
         <TextView
             android:id="@+id/contributorName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="4dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/cairo"
             android:text="Contributor name" />
+        <TextView
+            android:id="@+id/contributorRole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/cairo"
+            android:text="Icon artist"
+            android:alpha="0.75"/>
 
     </com.google.android.material.card.MaterialCardView>
 </RelativeLayout>

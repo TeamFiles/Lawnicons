@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/iconsListItem"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp">
+
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/Widget.Material3.CardView.Elevated"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:elevation="0dp"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="false"
+        app:contentPadding="5dp">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/appIcon"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@color/ic_launcher_background"/>
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="85dp"
+            android:fontFamily="@font/cairo"
+            android:text="App name"
+            android:textAlignment="center" />
+
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

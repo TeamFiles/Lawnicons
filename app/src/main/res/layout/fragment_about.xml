@@ -36,11 +36,11 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/conRecView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@id/about_appBar"
         android:layout_centerHorizontal="true"
-        android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
-        android:layout_width="match_parent"
         android:nestedScrollingEnabled="false"
         tools:listitem="@layout/contributors_list_item" />
 

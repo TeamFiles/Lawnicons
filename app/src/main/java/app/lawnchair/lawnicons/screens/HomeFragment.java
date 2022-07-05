@@ -13,7 +13,11 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import app.lawnchair.lawnicons.Data;
+import app.lawnchair.lawnicons.IconsRecViewAdapter;
 import app.lawnchair.lawnicons.R;
 
 public class HomeFragment extends Fragment {
@@ -30,6 +34,9 @@ public class HomeFragment extends Fragment {
         View view =  inflater.inflate(R.layout.fragment_home, container, false);
         Button requestBtn = view.findViewById(R.id.requestBtn);
         ImageView mr = view.findViewById(R.id.home_iconMR);
+
+        RecyclerView iconsRecView = view.findViewById(R.id.iconsRecView);
+        IconsRecViewAdapter adapter = new IconsRecViewAdapter(view.getContext());
 
         requestBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +65,11 @@ public class HomeFragment extends Fragment {
 
             }
         });
+
+        Data.setContext(view.getContext());
+        adapter.setIcons(Data.icons());
+        iconsRecView.setAdapter(adapter);
+        iconsRecView.setLayoutManager(new LinearLayoutManager(view.getContext(), LinearLayoutManager.HORIZONTAL, false));
 
         return view;
     }

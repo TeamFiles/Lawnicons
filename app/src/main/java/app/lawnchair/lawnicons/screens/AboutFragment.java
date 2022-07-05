@@ -27,7 +27,7 @@ public class AboutFragment extends Fragment {
         ContributorsRecViewAdapter adapter = new ContributorsRecViewAdapter(view.getContext());
 
         Data.setContext(view.getContext());
-        adapter.setContributors(Data.data());
+        adapter.setContributors(Data.contributors());
         contributorRecView.setAdapter(adapter);
         contributorRecView.setLayoutManager(new LinearLayoutManager(view.getContext()));
 
