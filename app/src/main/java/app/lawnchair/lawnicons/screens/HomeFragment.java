@@ -42,7 +42,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 try{
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/iconrequestsbot"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/iconrequestsbot"));
                     startActivity(intent);
                 } catch(ActivityNotFoundException e){
                     Toast.makeText(view.getContext(), R.string.install_browser, Toast.LENGTH_SHORT).show();
@@ -56,7 +56,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 try{
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://t.me/fileschat"));
+                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/fileschat"));
                     startActivity(intent);
                 } catch(ActivityNotFoundException e){
                     Toast.makeText(view.getContext(), R.string.install_browser, Toast.LENGTH_SHORT).show();
