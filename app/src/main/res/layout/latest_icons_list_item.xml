@@ -13,7 +13,8 @@
         style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="100dp"
         android:layout_height="120dp"
-        android:elevation="0dp"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        android:outlineAmbientShadowColor="@android:color/transparent"
         app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="false"
         app:contentPadding="5dp">

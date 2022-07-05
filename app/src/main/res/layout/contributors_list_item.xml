@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
     android:id="@+id/conListItem"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -13,7 +14,8 @@
         style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:elevation="0dp"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        android:outlineAmbientShadowColor="@android:color/transparent"
         app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="false"
         app:contentPadding="5dp">
