@@ -19,7 +19,7 @@
             android:id="@+id/home_appBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingTop="40dp"
+            android:paddingTop="15dp"
             android:paddingBottom="30dp">
 
             <RelativeLayout
