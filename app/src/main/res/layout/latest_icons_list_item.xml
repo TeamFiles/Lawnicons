@@ -33,7 +33,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="85dp"
+            android:ellipsize="end"
             android:fontFamily="@font/cairo"
+            android:singleLine="true"
             android:text="App name"
             android:textAlignment="center" />
 
