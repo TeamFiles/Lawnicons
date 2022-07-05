@@ -1,7 +1,6 @@
-package app.lawnchair.lawnicons.screens;
+package app.lawnchair.lawnicons.screens.home;
 
 import android.content.ActivityNotFoundException;
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -17,7 +16,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import app.lawnchair.lawnicons.Data;
-import app.lawnchair.lawnicons.IconsRecViewAdapter;
 import app.lawnchair.lawnicons.R;
 
 public class HomeFragment extends Fragment {
@@ -36,7 +34,7 @@ public class HomeFragment extends Fragment {
         ImageView mr = view.findViewById(R.id.home_iconMR);
 
         RecyclerView iconsRecView = view.findViewById(R.id.iconsRecView);
-        IconsRecViewAdapter adapter = new IconsRecViewAdapter(view.getContext());
+        LatestIconsViewAdapter adapter = new LatestIconsViewAdapter(view.getContext());
 
         requestBtn.setOnClickListener(new View.OnClickListener() {
             @Override

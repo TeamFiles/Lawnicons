@@ -1,8 +1,7 @@
-package app.lawnchair.lawnicons;
+package app.lawnchair.lawnicons.screens.home;
 
 import android.content.Context;
 import android.content.res.Configuration;
-import android.os.Build;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -17,24 +16,26 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
-public class IconsRecViewAdapter extends RecyclerView.Adapter<IconsRecViewAdapter.ViewHolder> {
+import app.lawnchair.lawnicons.R;
 
-    private ArrayList<Icon> icons = new ArrayList<>();
+public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsViewAdapter.ViewHolder> {
+
+    private ArrayList<LatestIcon> icons = new ArrayList<>();
     private final Context context;
 
-    public IconsRecViewAdapter(Context context) {
+    public LatestIconsViewAdapter(Context context) {
         this.context = context;
     }
 
     @NonNull
     @Override
-    public IconsRecViewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public LatestIconsViewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.latest_icons_list_item, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull IconsRecViewAdapter.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull LatestIconsViewAdapter.ViewHolder holder, int position) {
         holder.appName.setText(icons.get(position).getName());
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
         setDrawableColor(holder.appIcon);
@@ -45,7 +46,7 @@ public class IconsRecViewAdapter extends RecyclerView.Adapter<IconsRecViewAdapte
         return icons.size();
     }
 
-    public void setIcons(ArrayList<Icon> icons) {
+    public void setIcons(ArrayList<LatestIcon> icons) {
         this.icons = icons;
         notifyDataSetChanged();
     }

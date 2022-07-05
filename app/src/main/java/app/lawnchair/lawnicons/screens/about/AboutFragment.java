@@ -1,4 +1,4 @@
-package app.lawnchair.lawnicons.screens;
+package app.lawnchair.lawnicons.screens.about;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import app.lawnchair.lawnicons.ContributorsRecViewAdapter;
 import app.lawnchair.lawnicons.Data;
 import app.lawnchair.lawnicons.R;
 

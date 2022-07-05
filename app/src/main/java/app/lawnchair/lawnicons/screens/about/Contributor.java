@@ -1,4 +1,4 @@
-package app.lawnchair.lawnicons;
+package app.lawnchair.lawnicons.screens.about;
 
 import android.graphics.drawable.Drawable;
 
@@ -24,23 +24,11 @@ public class Contributor {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getRole() {
         return role;
     }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
-
     public Drawable getAvatar() {
         return avatar;
-    }
-
-    public void setAvatar(Drawable avatarURL) {
-        this.avatar = avatarURL;
     }
 }

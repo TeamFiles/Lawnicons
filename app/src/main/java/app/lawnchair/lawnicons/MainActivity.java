@@ -1,22 +1,15 @@
 package app.lawnchair.lawnicons;
 
-import android.content.ActivityNotFoundException;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.WindowManager;
-import android.widget.Button;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import app.lawnchair.lawnicons.screens.AboutFragment;
-import app.lawnchair.lawnicons.screens.HomeFragment;
+import app.lawnchair.lawnicons.screens.about.AboutFragment;
+import app.lawnchair.lawnicons.screens.home.HomeFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnItemSelectedListener {
 

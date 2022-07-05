@@ -6,6 +6,9 @@ import androidx.core.content.res.ResourcesCompat;
 
 import java.util.ArrayList;
 
+import app.lawnchair.lawnicons.screens.about.Contributor;
+import app.lawnchair.lawnicons.screens.home.LatestIcon;
+
 public class Data {
 
     private static Context context;
@@ -31,9 +34,9 @@ public class Data {
         return contributors;
     }
 
-    public static ArrayList<Icon> icons() {
-        ArrayList<Icon> icons = new ArrayList<>();
-        icons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
+    public static ArrayList<LatestIcon> icons() {
+        ArrayList<LatestIcon> icons = new ArrayList<>();
+        icons.add(new LatestIcon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
         return icons;
     }
 
