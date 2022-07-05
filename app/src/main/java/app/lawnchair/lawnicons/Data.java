@@ -33,7 +33,7 @@ public class Data {
 
     public static ArrayList<Icon> icons() {
         ArrayList<Icon> icons = new ArrayList<>();
-        icons.add(new Icon("No Piracy", ResourcesCompat.getDrawable((context.getResources()), R.drawable.themed_icon_no_piracy, null)));
+        icons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
         return icons;
     }
 
