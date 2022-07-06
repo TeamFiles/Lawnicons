@@ -5,5 +5,9 @@
         <item name="windowNoTitle">true</item>
         <item name="android:navigationBarColor">?attr/colorOnSurfaceInverse</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <!-- SPLASH SCREEN -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_anim</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
     </style>
 </resources>

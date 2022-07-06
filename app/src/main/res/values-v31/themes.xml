@@ -7,5 +7,10 @@
         <item name="android:navigationBarColor">?attr/colorOnSurfaceInverse</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowLightStatusBar">true</item>
+
+        <!-- SPLASH SCREEN -->
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/splash_anim</item>
+        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="colorOnPrimary">@android:color/system_accent1_50</item>
     </style>
 </resources>
