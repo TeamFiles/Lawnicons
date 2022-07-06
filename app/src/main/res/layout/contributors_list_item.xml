@@ -37,7 +37,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="55dp"
             android:layout_marginTop="5dp"
-            android:fontFamily="@font/cairo"
+            android:fontFamily="@font/product_sans_bold"
             android:text="Contributor name" />
         <TextView
             android:id="@+id/contributorRole"
@@ -47,7 +47,7 @@
             android:layout_marginTop="25dp"
             android:fontFamily="@font/cairo"
             android:text="Icon artist"
-            android:alpha="0.75"/>
+            android:alpha="0.8"/>
 
     </com.google.android.material.card.MaterialCardView>
 </RelativeLayout>
