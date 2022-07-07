@@ -2,6 +2,5 @@
 <resources>
     <color name="launcher_icon">#F75B45</color>
     <color name="launcher_icon_background">#FEDCD0</color>
-    <color name="app_icon_color_dark">#FFFFFF</color>
-    <color name="app_icon_color_light">#000000</color>
+    <color name="app_icon_color">@android:color/black</color>
 </resources>
