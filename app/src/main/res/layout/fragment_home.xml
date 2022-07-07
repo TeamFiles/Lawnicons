@@ -104,12 +104,11 @@
             android:textAlignment="center"
             android:textSize="25sp" />
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/iconsRecView"
+            android:id="@+id/latestIconsRecView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/latest_icons"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="5dp"
             android:nestedScrollingEnabled="true"
             tools:listitem="@layout/latest_icons_list_item" />
     </RelativeLayout>
