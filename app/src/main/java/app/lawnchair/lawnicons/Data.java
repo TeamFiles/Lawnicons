@@ -1,9 +1,11 @@
 package app.lawnchair.lawnicons;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 
 import androidx.core.content.res.ResourcesCompat;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 import app.lawnchair.lawnicons.screens.about.Contributor;
@@ -34,10 +36,26 @@ public class Data {
         return contributors;
     }
 
-    public static ArrayList<LatestIcon> icons() {
+    public static ArrayList<LatestIcon> latestIcons() {
         ArrayList<LatestIcon> icons = new ArrayList<>();
         icons.add(new LatestIcon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
         return icons;
+    }
+
+    public static ArrayList<LatestIcon> allIcons() {
+        Field[] drawablesFields = R.drawable.class.getFields();
+        ArrayList<LatestIcon> themedIcons = new ArrayList<>();
+
+        for (Field themedIcon : drawablesFields) {
+            try {
+                if (themedIcon.getName().contains("themed_icon") && !themedIcon.getName().contains("themed_icon_calendar")) {
+                    themedIcons.add(new LatestIcon(context.getDrawable(themedIcon.getInt(null))));
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return themedIcons;
     }
 
 }

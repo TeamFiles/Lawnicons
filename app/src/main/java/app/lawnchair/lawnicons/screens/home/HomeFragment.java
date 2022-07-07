@@ -33,7 +33,7 @@ public class HomeFragment extends Fragment {
         Button requestBtn = view.findViewById(R.id.requestBtn);
         ImageView mr = view.findViewById(R.id.home_iconMR);
 
-        RecyclerView iconsRecView = view.findViewById(R.id.iconsRecView);
+        RecyclerView iconsRecView = view.findViewById(R.id.latestIconsRecView);
         LatestIconsViewAdapter adapter = new LatestIconsViewAdapter(view.getContext());
 
         requestBtn.setOnClickListener(new View.OnClickListener() {
@@ -65,7 +65,7 @@ public class HomeFragment extends Fragment {
         });
 
         Data.setContext(view.getContext());
-        adapter.setIcons(Data.icons());
+        adapter.setIcons(Data.latestIcons());
         iconsRecView.setAdapter(adapter);
         iconsRecView.setLayoutManager(new LinearLayoutManager(view.getContext(), LinearLayoutManager.HORIZONTAL, false));
 

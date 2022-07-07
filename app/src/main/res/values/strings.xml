@@ -10,4 +10,6 @@
     <string name="about_title">Contributors</string>
     <string name="latest_icons">Newest Icons</string>
     <string name="install_browser">Please install a browser!!!</string>
+    <string name="page_icons">Icons</string>
+    <string name="icons_title">All Icons</string>
 </resources>

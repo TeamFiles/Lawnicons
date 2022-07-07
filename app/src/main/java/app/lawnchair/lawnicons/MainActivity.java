@@ -10,6 +10,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import app.lawnchair.lawnicons.screens.about.AboutFragment;
 import app.lawnchair.lawnicons.screens.home.HomeFragment;
+import app.lawnchair.lawnicons.screens.icons.IconsFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnItemSelectedListener {
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     HomeFragment homeFragment = new HomeFragment();
     AboutFragment aboutFragment = new AboutFragment();
+    IconsFragment iconsFragment = new IconsFragment();
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -39,11 +41,15 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 bottomNav.setItemActiveIndicatorEnabled(true);
                 break;
 
+            case R.id.page_icons:
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, iconsFragment).commit();
+                bottomNav.setItemActiveIndicatorEnabled(true);
+                break;
+
             case R.id.page_about:
                 getSupportFragmentManager().beginTransaction().replace(R.id.container, aboutFragment).commit();
                 bottomNav.setItemActiveIndicatorEnabled(true);
                 break;
-
         }
 
         return true;

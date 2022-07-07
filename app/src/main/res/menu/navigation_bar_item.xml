@@ -8,6 +8,12 @@
         android:title="@string/page_home" />
 
     <item
+        android:id="@+id/page_icons"
+        android:enabled="true"
+        android:icon="@drawable/selector_icons"
+        android:title="@string/page_icons" />
+
+    <item
         android:id="@+id/page_about"
         android:enabled="true"
         android:icon="@drawable/selector_info"

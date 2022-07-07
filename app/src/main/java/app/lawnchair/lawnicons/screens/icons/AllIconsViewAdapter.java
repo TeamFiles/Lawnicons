@@ -1,4 +1,4 @@
-package app.lawnchair.lawnicons.screens.home;
+package app.lawnchair.lawnicons.screens.icons;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,26 +14,26 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import app.lawnchair.lawnicons.R;
+import app.lawnchair.lawnicons.screens.home.LatestIcon;
 
-public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsViewAdapter.ViewHolder> {
+public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapter.ViewHolder> {
 
     private ArrayList<LatestIcon> icons = new ArrayList<>();
     private final Context context;
 
-    public LatestIconsViewAdapter(Context context) {
+    public AllIconsViewAdapter(Context context) {
         this.context = context;
     }
 
     @NonNull
     @Override
-    public LatestIconsViewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.latest_icons_list_item, parent, false);
+    public AllIconsViewAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.all_icons_list_item, parent, false);
         return new ViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(@NonNull LatestIconsViewAdapter.ViewHolder holder, int position) {
-        holder.appName.setText(icons.get(position).getName());
+    public void onBindViewHolder(@NonNull AllIconsViewAdapter.ViewHolder holder, int position) {
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
         LatestIcon.setDrawableColor(holder.appIcon, context);
     }
@@ -50,14 +50,12 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView appName;
         private ImageView appIcon;
         private RelativeLayout parent;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            appName = itemView.findViewById(R.id.appName);
             appIcon = itemView.findViewById(R.id.appIcon);
-            parent = itemView.findViewById(R.id.latestIconsListItem);
+            parent = itemView.findViewById(R.id.allIconsListItem);
         }
     }
 }
