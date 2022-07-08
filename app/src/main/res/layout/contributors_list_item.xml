@@ -28,7 +28,7 @@
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:scaleType="centerCrop"
-            android:src="@color/ic_launcher_background"
+            android:src="@color/launcher_icon_background"
             app:shapeAppearanceOverlay="@style/roundedImageView" />
 
         <TextView
@@ -39,6 +39,7 @@
             android:layout_marginTop="5dp"
             android:fontFamily="@font/product_sans_bold"
             android:text="Contributor name" />
+
         <TextView
             android:id="@+id/contributorRole"
             android:layout_width="wrap_content"

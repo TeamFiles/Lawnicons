@@ -27,7 +27,7 @@
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
             android:scaleType="centerCrop"
-            android:src="@color/ic_launcher_background"/>
+            android:src="@color/launcher_icon_background" />
 
         <TextView
             android:id="@+id/appName"
