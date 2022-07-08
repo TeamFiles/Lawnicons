@@ -5,6 +5,7 @@ import android.view.MenuItem;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -14,45 +15,65 @@ import app.lawnchair.lawnicons.screens.icons.IconsFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnItemSelectedListener {
 
-    BottomNavigationView bottomNav;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        bottomNav = findViewById(R.id.bottomNav);
+        initializeFragments();
+        BottomNavigationView bottomNav = findViewById(R.id.bottomNav);
 
-        bottomNav.setOnItemSelectedListener(this);
         bottomNav.setSelectedItemId(R.id.page_home);
+        bottomNav.setOnItemSelectedListener(this);
     }
 
     HomeFragment homeFragment = new HomeFragment();
     AboutFragment aboutFragment = new AboutFragment();
     IconsFragment iconsFragment = new IconsFragment();
+    FragmentManager manager = getSupportFragmentManager();
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-
         switch(item.getItemId()){
-
             case R.id.page_home:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, homeFragment).commit();
-                bottomNav.setItemActiveIndicatorEnabled(true);
-                break;
+                manager.beginTransaction()
+                        .show(homeFragment)
+                        .hide(aboutFragment)
+                        .hide(iconsFragment)
+                        .commit();
+                return true;
 
             case R.id.page_icons:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, iconsFragment).commit();
-                bottomNav.setItemActiveIndicatorEnabled(true);
-                break;
+                manager.beginTransaction()
+                        .show(iconsFragment)
+                        .hide(homeFragment)
+                        .hide(aboutFragment)
+                        .commit();
+                return true;
 
             case R.id.page_about:
-                getSupportFragmentManager().beginTransaction().replace(R.id.container, aboutFragment).commit();
-                bottomNav.setItemActiveIndicatorEnabled(true);
-                break;
+                manager.beginTransaction()
+                        .show(aboutFragment)
+                        .hide(homeFragment)
+                        .hide(iconsFragment)
+                        .commit();
+                return true;
+            default:
+                return false;
         }
 
-        return true;
     }
+
+    void initializeFragments(){
+        manager.beginTransaction()
+                .add(R.id.container, homeFragment)
+                .add(R.id.container, iconsFragment)
+                .add(R.id.container, aboutFragment)
+                .hide(iconsFragment)
+                .hide(aboutFragment)
+                .commit();
+    }
+
+
 
 }
