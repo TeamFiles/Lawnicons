@@ -37,9 +37,7 @@ public class ContributorsRecViewAdapter extends RecyclerView.Adapter<Contributor
     public void onBindViewHolder(@NonNull ContributorsRecViewAdapter.ViewHolder holder, int position) {
         holder.contributorName.setText(contributors.get(position).getName());
         String role = contributors.get(position).getRole();
-        if(role!=null) {
-            holder.contributorRole.setText(role);
-        }
+        holder.contributorRole.setText(role);
         holder.contributorAvatar.setImageDrawable(contributors.get(position).getAvatar());
 
         holder.parent.setOnClickListener(new View.OnClickListener() {

@@ -16,7 +16,8 @@ public class Contributor {
 
     public Contributor(String name, Drawable avatar) {
         this.name = name;
-        this.role = role;
+        if(this.role==null)
+            role = "Icon Artist";
         this.avatar = avatar;
     }
 
