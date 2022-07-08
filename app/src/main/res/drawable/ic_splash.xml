@@ -12,10 +12,6 @@
                 android:scaleY="0.6"
                 android:translateX="21.6"
                 android:translateY="21.6">
-                <path
-                    android:name="bg-circle"
-                    android:pathData="M54,108L54,108C24.2,108 0,83.8 0,54v0C0,24.2 24.2,0 54,0h0c29.8,0 54,24.2 54,54v0C108,83.8 83.8,108 54,108z"
-                    android:fillColor="?attr/colorOnPrimary"/>
                 <group android:name="outer-shape"
                     android:pivotY="54"
                     android:pivotX="54"
