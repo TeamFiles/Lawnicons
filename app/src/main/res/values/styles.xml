@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:app="http://schemas.android.com/apk/res-auto">
 
-<!--    <style name="Widget.BottomNavigationView" parent="Widget.Design.BottomNavigationView">-->
-<!--        <item name="fontFamily">@font/poppins_semibold</item>-->
-<!--        <item name="android:paddingBottom">10dp</item>-->
-<!--        <item name="android:paddingTop">10dp</item>-->
-<!--        <item name="android:selectable">true</item>-->
-<!--    </style>-->
-
     <style name="roundedImageView">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">50%</item>
+    </style>
+    <style name="App.BottomNav.CustomIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:height">36dp</item>
+        <item name="android:width">75dp</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.BottomNav.ActiveIndicator</item>
+    </style>
+    <style name="ShapeAppearance.App.BottomNav.ActiveIndicator" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">30%</item>
     </style>
 
 </resources>
