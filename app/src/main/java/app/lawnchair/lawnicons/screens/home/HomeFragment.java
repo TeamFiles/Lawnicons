@@ -50,9 +50,9 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        mr.setOnClickListener(new View.OnClickListener() {
+        mr.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
-            public void onClick(View v) {
+            public boolean onLongClick(View v) {
                 try{
                     Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/fileschat"));
                     startActivity(intent);
@@ -61,6 +61,7 @@ public class HomeFragment extends Fragment {
                     e.printStackTrace();
                 }
 
+                return true;
             }
         });
 
