@@ -17,7 +17,7 @@ import app.lawnchair.lawnicons.R;
 
 public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsViewAdapter.ViewHolder> {
 
-    private ArrayList<LatestIcon> icons = new ArrayList<>();
+    private ArrayList<Icon> icons = new ArrayList<>();
     private final Context context;
 
     public LatestIconsViewAdapter(Context context) {
@@ -35,7 +35,7 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
     public void onBindViewHolder(@NonNull LatestIconsViewAdapter.ViewHolder holder, int position) {
         holder.appName.setText(icons.get(position).getName());
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
-        LatestIcon.setDrawableColor(holder.appIcon, context);
+        Icon.setDrawableColor(holder.appIcon, context);
     }
 
     @Override
@@ -43,7 +43,7 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
         return icons.size();
     }
 
-    public void setIcons(ArrayList<LatestIcon> icons) {
+    public void setIcons(ArrayList<Icon> icons) {
         this.icons = icons;
         notifyDataSetChanged();
     }

@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -14,11 +13,11 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 
 import app.lawnchair.lawnicons.R;
-import app.lawnchair.lawnicons.screens.home.LatestIcon;
+import app.lawnchair.lawnicons.screens.home.Icon;
 
 public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapter.ViewHolder> {
 
-    private ArrayList<LatestIcon> icons = new ArrayList<>();
+    private ArrayList<Icon> icons = new ArrayList<>();
     private final Context context;
 
     public AllIconsViewAdapter(Context context) {
@@ -35,7 +34,7 @@ public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapte
     @Override
     public void onBindViewHolder(@NonNull AllIconsViewAdapter.ViewHolder holder, int position) {
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
-        LatestIcon.setDrawableColor(holder.appIcon, context);
+        Icon.setDrawableColor(holder.appIcon, context);
     }
 
     @Override
@@ -43,7 +42,7 @@ public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapte
         return icons.size();
     }
 
-    public void setIcons(ArrayList<LatestIcon> icons) {
+    public void setIcons(ArrayList<Icon> icons) {
         this.icons = icons;
         notifyDataSetChanged();
     }

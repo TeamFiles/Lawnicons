@@ -1,7 +1,6 @@
 package app.lawnchair.lawnicons;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 
 import androidx.core.content.res.ResourcesCompat;
 
@@ -9,7 +8,7 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 import app.lawnchair.lawnicons.screens.about.Contributor;
-import app.lawnchair.lawnicons.screens.home.LatestIcon;
+import app.lawnchair.lawnicons.screens.home.Icon;
 
 public class Data {
 
@@ -38,20 +37,20 @@ public class Data {
         return contributors;
     }
 
-    public static ArrayList<LatestIcon> latestIcons() {
-        ArrayList<LatestIcon> icons = new ArrayList<>();
-        icons.add(new LatestIcon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
+    public static ArrayList<Icon> latestIcons() {
+        ArrayList<Icon> icons = new ArrayList<>();
+        icons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
         return icons;
     }
 
-    public static ArrayList<LatestIcon> allIcons() {
+    public static ArrayList<Icon> allIcons() {
         Field[] drawablesFields = R.drawable.class.getFields();
-        ArrayList<LatestIcon> themedIcons = new ArrayList<>();
+        ArrayList<Icon> themedIcons = new ArrayList<>();
 
         for (Field themedIcon : drawablesFields) {
             try {
                 if (themedIcon.getName().contains("themed_icon") && !themedIcon.getName().contains("themed_icon_calendar")) {
-                    themedIcons.add(new LatestIcon(context.getDrawable(themedIcon.getInt(null))));
+                    themedIcons.add(new Icon(context.getDrawable(themedIcon.getInt(null))));
                 }
             } catch (Exception e) {
                 e.printStackTrace();

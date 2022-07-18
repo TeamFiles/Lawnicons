@@ -14,13 +14,13 @@ import java.util.ArrayList;
 
 import app.lawnchair.lawnicons.R;
 
-public class LatestIcon {
+public class Icon {
     private String name;
     private Drawable icon;
 
-    public LatestIcon(Drawable icon) { this.icon = icon; }
+    public Icon(Drawable icon) { this.icon = icon; }
 
-    public LatestIcon(String name, Drawable icon) {
+    public Icon(String name, Drawable icon) {
         this.name = name;
         this.icon = icon;
     }
