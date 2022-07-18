@@ -8,37 +8,41 @@
     android:paddingTop="5dp"
     android:paddingRight="10dp">
 
-
     <com.google.android.material.card.MaterialCardView
         style="@style/Widget.Material3.CardView.Elevated"
         android:layout_width="100dp"
         android:layout_height="120dp"
         android:outlineSpotShadowColor="@android:color/transparent"
         android:outlineAmbientShadowColor="@android:color/transparent"
-        app:cardCornerRadius="10dp"
-        app:cardUseCompatPadding="false"
-        app:contentPadding="5dp">
+        app:cardCornerRadius="10dp">
 
-
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/appIcon"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="10dp"
-            android:scaleType="centerCrop"
-            android:src="@color/launcher_icon_background" />
-
-        <TextView
-            android:id="@+id/appName"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="85dp"
-            android:ellipsize="end"
-            android:fontFamily="@font/cairo"
-            android:singleLine="true"
-            android:text="App name"
-            android:textAlignment="center" />
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/appIcon"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:scaleType="centerCrop"
+                android:src="@color/launcher_icon_background" />
+
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/appIcon"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo"
+                android:singleLine="true"
+                android:layout_marginTop="10dp"
+                android:text="App name"
+                android:textAlignment="center" />
+
+        </RelativeLayout>
 
     </com.google.android.material.card.MaterialCardView>
 </RelativeLayout>
