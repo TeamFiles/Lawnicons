@@ -8,6 +8,6 @@
 
         <!-- SPLASH SCREEN -->
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_splash</item>
-        <item name="android:windowSplashScreenAnimationDuration">2000</item>
+        <item name="android:windowSplashScreenAnimationDuration">10000</item>
     </style>
 </resources>

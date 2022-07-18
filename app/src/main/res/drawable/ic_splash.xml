@@ -43,6 +43,8 @@
                     android:valueFrom="0"
                     android:valueTo="180"
                     android:duration="2000"
+                    android:repeatCount="5"
+                    android:repeatMode="reverse"
                     android:interpolator="@android:interpolator/fast_out_slow_in"/>
             </set>
         </aapt:attr>
@@ -55,6 +57,8 @@
                     android:valueFrom="0"
                     android:valueTo="-180"
                     android:duration="2000"
+                    android:repeatCount="5"
+                    android:repeatMode="reverse"
                     android:interpolator="@android:interpolator/fast_out_slow_in"/>
             </set>
         </aapt:attr>
