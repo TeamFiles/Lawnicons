@@ -1,0 +1,10 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="@integer/material_motion_duration_short_2">
+
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:interpolator="@android:anim/accelerate_interpolator"
+        />
+
+</set>

@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         switch(item.getItemId()){
             case R.id.page_home:
                 manager.beginTransaction()
+                        .setCustomAnimations(R.anim.zoom_in_lite, R.anim.fade_out)
                         .show(homeFragment)
                         .hide(aboutFragment)
                         .hide(iconsFragment)
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
             case R.id.page_icons:
                 manager.beginTransaction()
+                        .setCustomAnimations(R.anim.zoom_in_lite, R.anim.fade_out)
                         .show(iconsFragment)
                         .hide(homeFragment)
                         .hide(aboutFragment)
@@ -53,6 +55,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
             case R.id.page_about:
                 manager.beginTransaction()
+                        .setCustomAnimations(R.anim.zoom_in_lite, R.anim.fade_out)
                         .show(aboutFragment)
                         .hide(homeFragment)
                         .hide(iconsFragment)

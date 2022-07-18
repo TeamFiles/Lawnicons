@@ -2,10 +2,10 @@ package app.lawnchair.lawnicons.screens.icons;
 
 import android.content.Context;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -39,6 +39,7 @@ public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapte
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
         holder.appName.setText(icons.get(position).getName());
         Icon.setDrawableColor(holder.appIcon, context);
+        holder.itemView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.zoom_in));
     }
 
     @Override
