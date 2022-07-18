@@ -1,11 +1,14 @@
 package app.lawnchair.lawnicons.screens.icons;
 
 import android.content.Context;
+import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -34,6 +37,7 @@ public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapte
     @Override
     public void onBindViewHolder(@NonNull AllIconsViewAdapter.ViewHolder holder, int position) {
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
+        holder.appName.setText(icons.get(position).getName());
         Icon.setDrawableColor(holder.appIcon, context);
     }
 
@@ -51,10 +55,18 @@ public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapte
 
         private ImageView appIcon;
         private RelativeLayout parent;
+        private TextView appName;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             appIcon = itemView.findViewById(R.id.appIcon);
+            appName = itemView.findViewById(R.id.appName);
             parent = itemView.findViewById(R.id.allIconsListItem);
         }
+    }
+
+    public static int getColumns(Context context) {
+        DisplayMetrics displayMetrics = context.getResources().getDisplayMetrics();
+        float dpWidth = displayMetrics.widthPixels / displayMetrics.density;
+        return (int) (dpWidth / 100);
     }
 }

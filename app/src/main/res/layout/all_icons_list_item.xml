@@ -4,28 +4,55 @@
     android:id="@+id/allIconsListItem"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:padding="10dp">
+    android:padding="5dp">
 
 
     <com.google.android.material.card.MaterialCardView
         style="@style/Widget.Material3.CardView.Elevated"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:outlineSpotShadowColor="@android:color/transparent"
+        android:layout_width="85dp"
+        android:layout_height="105dp"
         android:outlineAmbientShadowColor="@android:color/transparent"
-        app:cardCornerRadius="50dp"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="false"
         app:contentPadding="5dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/iconHolder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
+                <com.google.android.material.imageview.ShapeableImageView
+                    android:id="@+id/appIconBG"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:src="@color/app_icon_bg_color"
+                    app:shapeAppearance="@style/roundedImageView"/>
 
-        <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/appIcon"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp"
-            android:scaleType="centerCrop"
-            android:src="@color/launcher_icon_background"/>
+                <ImageView
+                    android:id="@+id/appIcon"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_centerInParent="true"
+                    android:scaleType="centerCrop"
+                    android:src="@color/launcher_icon" />
+            </RelativeLayout>
 
+            <TextView
+                android:id="@+id/appName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iconHolder"
+                android:paddingTop="3dp"
+                android:ellipsize="end"
+                android:fontFamily="@font/cairo"
+                android:singleLine="true"
+                android:text="App name"
+                android:textSize="12sp"
+                android:textAlignment="center" />
+        </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
+
 </RelativeLayout>
