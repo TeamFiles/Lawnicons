@@ -8,7 +8,7 @@
     android:layout_centerHorizontal="true"
     android:layout_gravity="center"
     tools:context=".MainActivity"
-    android:background="@android:color/transparent">
+    android:background="?attr/colorSurface">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/icons_appBar"
