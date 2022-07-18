@@ -65,8 +65,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        Data.setContext(view.getContext());
-        adapter.setIcons(Data.latestIcons());
+        adapter.setIcons(Data.getLatestIcons());
         iconsRecView.setAdapter(adapter);
         iconsRecView.setLayoutManager(new LinearLayoutManager(view.getContext(), LinearLayoutManager.HORIZONTAL, false));
 

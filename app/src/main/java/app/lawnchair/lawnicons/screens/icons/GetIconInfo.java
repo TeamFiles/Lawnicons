@@ -13,7 +13,7 @@ import java.util.ListIterator;
 import app.lawnchair.lawnicons.R;
 import app.lawnchair.lawnicons.screens.home.Icon;
 
-public class GetIconInfo {
+public class GetIconInfo extends Thread {
 
     private static Context context;
 
@@ -79,11 +79,15 @@ public class GetIconInfo {
     }
 
     public static ArrayList<Icon> getAllIcons() {
+        return allIcons;
+    }
+
+    @Override
+    public void run() {
+        super.run();
         if (!loadedFlag) {
             nukeInfoFromXML();
             loadedFlag = true;
         }
-        return allIcons;
     }
-
 }

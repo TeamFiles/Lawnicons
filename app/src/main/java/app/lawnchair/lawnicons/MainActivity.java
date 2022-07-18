@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import app.lawnchair.lawnicons.screens.about.AboutFragment;
 import app.lawnchair.lawnicons.screens.home.HomeFragment;
+import app.lawnchair.lawnicons.screens.icons.GetIconInfo;
 import app.lawnchair.lawnicons.screens.icons.IconsFragment;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnItemSelectedListener {
@@ -25,6 +26,16 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
         bottomNav.setSelectedItemId(R.id.page_home);
         bottomNav.setOnItemSelectedListener(this);
+
+
+        //Run threads
+        Thread dataThread = new Data();
+        Data.setContext(getApplicationContext());
+        dataThread.start();
+
+        Thread iconsThread = new GetIconInfo();
+        GetIconInfo.setContext(getApplicationContext());
+        iconsThread.start();
     }
 
     HomeFragment homeFragment = new HomeFragment();
@@ -76,7 +87,4 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 .hide(aboutFragment)
                 .commit();
     }
-
-
-
 }

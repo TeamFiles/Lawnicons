@@ -21,7 +21,6 @@ public class IconsFragment extends Fragment {
         RecyclerView iconsRecView = view.findViewById(R.id.iconsRecView);
         AllIconsViewAdapter adapter = new AllIconsViewAdapter(view.getContext());
 
-        GetIconInfo.setContext(view.getContext());
         adapter.setIcons(GetIconInfo.getAllIcons());
         iconsRecView.setAdapter(adapter);
         iconsRecView.setLayoutManager(new GridLayoutManager(view.getContext(), AllIconsViewAdapter.getColumns(view.getContext())));

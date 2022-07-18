@@ -4,22 +4,23 @@ import android.content.Context;
 
 import androidx.core.content.res.ResourcesCompat;
 
-import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 import app.lawnchair.lawnicons.screens.about.Contributor;
 import app.lawnchair.lawnicons.screens.home.Icon;
 
-public class Data {
+public class Data extends Thread {
 
     private static Context context;
+    private static ArrayList<Contributor> contributors = new ArrayList<>();
+    private static ArrayList<Icon> latestIcons = new ArrayList<>();
+    private static boolean loadedFlag = false;
 
     public static void setContext(Context context) {
         Data.context = context;
     }
 
-    public static ArrayList<Contributor> contributors () {
-        ArrayList<Contributor> contributors = new ArrayList<>();
+    private static void loadContributors () {
         contributors.add(new Contributor("Rufus IR", "Lawnicons by TeamFiles Project Leader", ResourcesCompat.getDrawable((context.getResources()), R.drawable.avatar_rufus, null)));
         contributors.add(new Contributor("pranshoe.", "Lawnicons by TeamFiles Project Co-leader", ResourcesCompat.getDrawable(context.getResources(), R.drawable.avatar_pranshoe, null)));
         contributors.add(new Contributor("Looper", "Lawnicons by TeamFiles Project Co-leader", ResourcesCompat.getDrawable(context.getResources(), R.drawable.avatar_looper, null)));
@@ -35,29 +36,27 @@ public class Data {
         contributors.add(new Contributor("Sepehr", ResourcesCompat.getDrawable((context.getResources()), R.drawable.avatar_sepehr, null)));
         contributors.add(new Contributor("Jorge da Silva", ResourcesCompat.getDrawable((context.getResources()), R.drawable.avatar_jorge, null)));
         contributors.add(new Contributor("Abdul Aziz Shakib", ResourcesCompat.getDrawable((context.getResources()), R.drawable.avatar_shakib, null)));
+    }
+
+    public static ArrayList<Contributor> getContributors() {
         return contributors;
     }
 
-    public static ArrayList<Icon> latestIcons() {
-        ArrayList<Icon> icons = new ArrayList<>();
-        icons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
-        return icons;
+    private static void loadLatestIcons() {
+        latestIcons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
     }
 
-    public static ArrayList<Icon> allIcons() {
-        Field[] drawablesFields = R.drawable.class.getFields();
-        ArrayList<Icon> themedIcons = new ArrayList<>();
+    public static ArrayList<Icon> getLatestIcons() {
+        return latestIcons;
+    }
 
-        for (Field themedIcon : drawablesFields) {
-            try {
-                if (themedIcon.getName().contains("themed_icon") && !themedIcon.getName().contains("themed_icon_calendar")) {
-                    themedIcons.add(new Icon(context.getDrawable(themedIcon.getInt(null))));
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+    @Override
+    public void run() {
+        super.run();
+        if (!loadedFlag) {
+            loadContributors();
+            loadLatestIcons();
+            loadedFlag = true;
         }
-        return themedIcons;
     }
-
 }

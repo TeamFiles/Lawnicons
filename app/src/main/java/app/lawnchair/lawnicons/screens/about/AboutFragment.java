@@ -25,8 +25,7 @@ public class AboutFragment extends Fragment {
         RecyclerView contributorRecView = view.findViewById(R.id.conRecView);
         ContributorsRecViewAdapter adapter = new ContributorsRecViewAdapter(view.getContext());
 
-        Data.setContext(view.getContext());
-        adapter.setContributors(Data.contributors());
+        adapter.setContributors(Data.getContributors());
         contributorRecView.setAdapter(adapter);
         contributorRecView.setLayoutManager(new LinearLayoutManager(view.getContext()));
 
