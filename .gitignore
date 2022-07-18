@@ -32,6 +32,8 @@ Thumbs.db
 
 # Themed Icons
 app/src/main/res/drawable/themed_icon*
+app/src/main/res/drawable-v21/themed_icon*
+app/src/main/res/color/themed_icon*
 app/src/main/res/values/arrays.xml
 app/src/main/res/xml/*
 
