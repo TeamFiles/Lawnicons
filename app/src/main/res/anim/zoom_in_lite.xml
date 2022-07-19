@@ -4,7 +4,7 @@
     <alpha
         android:fromAlpha="0"
         android:toAlpha="1"
-        android:interpolator="@android:anim/accelerate_interpolator"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
         />
 
     <scale
@@ -14,7 +14,7 @@
         android:toYScale="100%"
         android:pivotX="50%"
         android:pivotY="50%"
-        android:interpolator="@android:anim/decelerate_interpolator"
+        android:interpolator="@android:interpolator/fast_out_slow_in"
         />
 
 </set>
