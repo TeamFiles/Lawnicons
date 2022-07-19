@@ -31,7 +31,6 @@ public class GetIconInfo extends Thread {
         int xmlID = R.xml.grayscale_icon_map;
         int missedCount = 0;
         int errorCount = 0;
-        int dupCount = 0;
 
         try {
             if(xmlID != 0) {
@@ -44,12 +43,8 @@ public class GetIconInfo extends Thread {
                         continue;
                     if (parser.getName().equals("icon")) {
                         String appName = parser.getAttributeValue(null, "name");
-                        if (appName == null || appName.equals("MISSING") || appName.equals("DUPLICATE") || appName.isEmpty()) {
-                            if (appName.equals("DUPLICATE")) {
-                                dupCount++;
-                            } else {
-                                missedCount++;
-                            }
+                        if (appName == null || appName.equals("MISSING") || appName.isEmpty()) {
+                            missedCount++;
                             continue;
                         }
                         int appIconId = parser.getAttributeResourceValue(null, "drawable", 0);
@@ -70,7 +65,6 @@ public class GetIconInfo extends Thread {
             }
             Log.i("Icons displayed", String.valueOf(allIcons.size()));
             Log.i("Icons without name", String.valueOf(missedCount));
-            Log.i("Duplicate Icons", String.valueOf(dupCount));
             Log.i("Icons with defect and can't be read", String.valueOf(errorCount));
             Log.i("Total icons", String.valueOf(allIcons.size() + missedCount + errorCount));
         } catch (Exception e) {
