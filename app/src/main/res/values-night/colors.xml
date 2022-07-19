@@ -2,4 +2,5 @@
 <resources>
     <color name="app_icon_color">@android:color/white</color>
     <color name="app_icon_bg_color">@color/launcher_icon</color>
+    <color name="navbar_bg_color">?attr/colorOnSecondary</color>
 </resources>

@@ -4,4 +4,5 @@
     <color name="launcher_icon_background">@android:color/system_neutral2_800</color>
     <color name="app_icon_color">@android:color/system_accent1_200</color>
     <color name="app_icon_bg_color">@color/launcher_icon_background</color>
+    <color name="navbar_bg_color">?attr/colorOnSecondary</color>
 </resources>

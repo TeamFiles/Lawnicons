@@ -3,7 +3,7 @@
     <style name="Theme.MyApplication" parent="Theme.Material3.DynamicColors.Dark">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
-        <item name="android:navigationBarColor">?attr/colorOnSurfaceInverse</item>
+        <item name="android:navigationBarColor">?attr/colorOnSecondary</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
 
         <!-- SPLASH SCREEN -->

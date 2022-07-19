@@ -20,9 +20,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/navigation_bar_item"
-        android:fitsSystemWindows="false"
         android:background="@drawable/shape_navigation_view"
-        app:itemRippleColor="@android:color/transparent"
+        android:fitsSystemWindows="false"
         app:labelVisibilityMode="selected"
         app:itemActiveIndicatorStyle="@style/App.BottomNav.CustomIndicator"/>
 

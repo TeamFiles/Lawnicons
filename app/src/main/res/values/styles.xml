@@ -11,7 +11,7 @@
         <item name="shapeAppearance">@style/ShapeAppearance.App.BottomNav.ActiveIndicator</item>
     </style>
     <style name="ShapeAppearance.App.BottomNav.ActiveIndicator" parent="ShapeAppearance.Material3.SmallComponent">
-        <item name="cornerSize">30%</item>
+        <item name="cornerSize">40%</item>
     </style>
 
 </resources>
