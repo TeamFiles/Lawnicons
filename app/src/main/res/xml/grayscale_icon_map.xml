@@ -1049,4 +1049,5 @@
     <icon drawable="@drawable/themed_icon_zepp_life" name="Zepp Life(MiFit)" package="com.xiaomi.hm.health" />
     <icon drawable="@drawable/themed_icon_zomato" name="Zomato" package="com.application.zomato" />
     <icon drawable="@drawable/themed_icon_zoom" name="MISSING" package="us.zoom.videomeetings" />
+    <icon drawable="@drawable/themed_icon_wordweb" name="WordWeb" package="com.wordwebsoftware.android.wordweb" />
 </icons>
