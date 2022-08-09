@@ -29,8 +29,8 @@
 
                 <com.google.android.material.imageview.ShapeableImageView
                     android:id="@+id/home_iconMR"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:scaleType="centerCrop"
                     android:src="@mipmap/ic_launcher_round"
@@ -71,11 +71,50 @@
             android:fontFamily="@font/product_sans_regular"
             android:textAlignment="center"/>
 
+        <com.google.android.material.card.MaterialCardView
+            style="@style/Widget.Material3.CardView.Filled"
+            app:cardBackgroundColor="?attr/colorSecondaryContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="10dp"
+            app:cardCornerRadius="25dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/how_to_use"
+            android:layout_below="@id/lawnicons_desc_2"
+            android:outlineAmbientShadowColor="@android:color/transparent"
+            android:outlineSpotShadowColor="@android:color/transparent">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:id="@+id/how_to_use_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/product_sans_bold"
+                    android:text="@string/how_to_use_title"
+                    android:textColor="?attr/colorOnSecondaryContainer"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/how_to_use_desc"
+                    android:layout_below="@id/how_to_use_title"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17sp"
+                    android:text="@string/how_to_use_desc"
+                    android:textColor="?attr/colorOnSecondaryContainer"
+                    android:fontFamily="@font/product_sans_regular"
+                    android:textAlignment="center"/>
+            </RelativeLayout>
+        </com.google.android.material.card.MaterialCardView>
+
         <TextView
             android:id="@+id/latest_icons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/lawnicons_desc_2"
+            android:layout_below="@id/how_to_use"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/product_sans_bold"
             android:text="@string/latest_icons"
