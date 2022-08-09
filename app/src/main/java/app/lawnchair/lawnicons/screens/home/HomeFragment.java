@@ -30,25 +30,10 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view =  inflater.inflate(R.layout.fragment_home, container, false);
-        Button requestBtn = view.findViewById(R.id.requestBtn);
         ImageView mr = view.findViewById(R.id.home_iconMR);
 
         RecyclerView iconsRecView = view.findViewById(R.id.latestIconsRecView);
         LatestIconsViewAdapter adapter = new LatestIconsViewAdapter(view.getContext());
-
-        requestBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try{
-                    Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/iconrequestsbot"));
-                    startActivity(intent);
-                } catch(ActivityNotFoundException e){
-                    Toast.makeText(view.getContext(), R.string.install_browser, Toast.LENGTH_SHORT).show();
-                    e.printStackTrace();
-                }
-
-            }
-        });
 
         mr.setOnLongClickListener(new View.OnLongClickListener() {
             @Override

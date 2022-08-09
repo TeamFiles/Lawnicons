@@ -44,6 +44,8 @@ public class Data extends Thread {
 
     private static void loadLatestIcons() {
         latestIcons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
+        //Request Icons
+        latestIcons.add(new Icon("Request More", ResourcesCompat.getDrawable(context.getResources(), R.drawable.ic_request, null), true));
     }
 
     public static ArrayList<Icon> getLatestIcons() {

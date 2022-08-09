@@ -10,6 +10,7 @@
 
     <com.google.android.material.card.MaterialCardView
         style="@style/Widget.Material3.CardView.Elevated"
+        android:id="@+id/iconHolder"
         android:layout_width="100dp"
         android:layout_height="120dp"
         android:outlineSpotShadowColor="@android:color/transparent"

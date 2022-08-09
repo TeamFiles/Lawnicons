@@ -1,14 +1,19 @@
 package app.lawnchair.lawnicons.screens.home;
 
+import android.content.ActivityNotFoundException;
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -36,6 +41,21 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
         holder.appName.setText(icons.get(position).getName());
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
         Icon.setDrawableColor(holder.appIcon, context);
+        if (icons.get(position).isRequestBtn()) {
+            holder.iconBg.setCardBackgroundColor(context.getColor(R.color.reqBtnBg));
+            holder.parent.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try{
+                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/iconrequestsbot"));
+                        context.startActivity(intent);
+                    } catch(ActivityNotFoundException e){
+                        Toast.makeText(context, R.string.install_browser, Toast.LENGTH_SHORT).show();
+                        e.printStackTrace();
+                    }
+                }
+            });
+        }
     }
 
     @Override
@@ -53,10 +73,12 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
         private TextView appName;
         private ImageView appIcon;
         private RelativeLayout parent;
+        private CardView iconBg;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             appName = itemView.findViewById(R.id.appName);
             appIcon = itemView.findViewById(R.id.appIcon);
+            iconBg = itemView.findViewById(R.id.iconHolder);
             parent = itemView.findViewById(R.id.latestIconsListItem);
         }
     }

@@ -130,19 +130,6 @@
             android:nestedScrollingEnabled="true"
             tools:listitem="@layout/latest_icons_list_item" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/latestIconsRecView"
-            android:id="@+id/requestBtn"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="10dp"
-            android:background="@drawable/shape_request_button"
-            android:text="@string/request_icon"
-            android:fontFamily="@font/product_sans_regular"
-            android:textSize="25sp" />
-
     </RelativeLayout>
 
 </ScrollView>

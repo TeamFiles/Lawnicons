@@ -4,5 +4,6 @@
     <color name="launcher_icon_background">#FEDCD0</color>
     <color name="app_icon_color">@android:color/black</color>
     <color name="app_icon_bg_color">@color/launcher_icon_background</color>
+    <color name="reqBtnBg">@color/cardview_light_background</color>
     <color name="navbar_bg_color">?attr/colorOnSurfaceInverse</color>
 </resources>
