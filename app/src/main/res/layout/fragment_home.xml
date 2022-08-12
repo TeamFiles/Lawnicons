@@ -26,15 +26,24 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-
-                <com.google.android.material.imageview.ShapeableImageView
+                
+                <com.google.android.material.card.MaterialCardView
+                    style="@style/Widget.Material3.CardView.Filled"
                     android:id="@+id/home_iconMR"
+                    android:clickable="true"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
-                    android:scaleType="centerCrop"
-                    android:src="@mipmap/ic_launcher_round"
-                    app:shapeAppearanceOverlay="@style/roundedImageView" />
+                    app:cardBackgroundColor="@color/launcher_icon_background"
+                    android:outlineAmbientShadowColor="@android:color/transparent"
+                    android:outlineSpotShadowColor="@android:color/transparent"
+                    app:cardCornerRadius="500dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@mipmap/ic_launcher"/>
+
+                </com.google.android.material.card.MaterialCardView>
 
             </RelativeLayout>
         </com.google.android.material.appbar.AppBarLayout>
@@ -126,9 +135,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/latest_icons"
+            android:layout_marginBottom="10dp"
             android:layout_centerHorizontal="true"
             android:nestedScrollingEnabled="true"
-            android:layout_marginBottom="10dp"
             tools:listitem="@layout/latest_icons_list_item" />
 
     </RelativeLayout>

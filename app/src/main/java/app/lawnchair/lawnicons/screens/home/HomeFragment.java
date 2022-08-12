@@ -15,6 +15,8 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.card.MaterialCardView;
+
 import app.lawnchair.lawnicons.Data;
 import app.lawnchair.lawnicons.R;
 
@@ -30,7 +32,7 @@ public class HomeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
         View view =  inflater.inflate(R.layout.fragment_home, container, false);
-        ImageView mr = view.findViewById(R.id.home_iconMR);
+        MaterialCardView mr = view.findViewById(R.id.home_iconMR);
 
         RecyclerView iconsRecView = view.findViewById(R.id.latestIconsRecView);
         LatestIconsViewAdapter adapter = new LatestIconsViewAdapter(view.getContext());
