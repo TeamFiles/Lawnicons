@@ -48,6 +48,10 @@ public class ContributorsRecViewAdapter extends RecyclerView.Adapter<Contributor
             }
         });
 
+        if (!contributors.get(position).isLast()) {
+            holder.parent.setPadding(0, 0, 0, 10);
+        }
+
         holder.itemView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.zoom_in_lite));
     }
 

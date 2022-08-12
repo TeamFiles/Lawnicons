@@ -7,6 +7,7 @@ public class Contributor {
     private String name;
     private String role;
     private Drawable avatar;
+    private boolean last;
 
     public Contributor(String name, String role, Drawable avatar) {
         this.name = name;
@@ -14,11 +15,12 @@ public class Contributor {
         this.avatar = avatar;
     }
 
-    public Contributor(String name, Drawable avatar) {
+    public Contributor(String name, Drawable avatar, boolean last) {
         this.name = name;
         if(this.role==null)
             role = "Icon Artist";
         this.avatar = avatar;
+        this.last = last;
     }
 
     public String getName() {
@@ -31,5 +33,9 @@ public class Contributor {
 
     public Drawable getAvatar() {
         return avatar;
+    }
+
+    public boolean isLast() {
+        return last;
     }
 }

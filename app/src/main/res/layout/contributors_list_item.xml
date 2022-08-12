@@ -4,10 +4,7 @@
     xmlns:card_view="http://schemas.android.com/tools"
     android:id="@+id/conListItem"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingLeft="30dp"
-    android:paddingBottom="5dp"
-    android:paddingRight="30dp">
+    android:layout_height="wrap_content">
 
 
     <com.google.android.material.card.MaterialCardView

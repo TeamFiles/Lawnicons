@@ -35,14 +35,28 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/conRecView"
-        android:layout_width="match_parent"
+
+
+    <androidx.cardview.widget.CardView
+        style="@style/Widget.Material3.CardView.Filled"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/about_appBar"
-        android:layout_centerHorizontal="true"
-        android:nestedScrollingEnabled="false"
-        tools:listitem="@layout/contributors_list_item" />
+        android:outlineAmbientShadowColor="@android:color/transparent"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="30dp">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/conRecView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:nestedScrollingEnabled="false"
+            tools:listitem="@layout/contributors_list_item" />
+    </androidx.cardview.widget.CardView>
 
 </RelativeLayout>
 
