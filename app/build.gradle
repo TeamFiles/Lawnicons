@@ -9,7 +9,7 @@ android {
     defaultConfig {
         applicationId "app.lawnchair.lawnicons"
         minSdk 26
-        targetSdk 32
+        targetSdk 33
         versionCode 264
         versionName 'V2.6_Stable'
 
