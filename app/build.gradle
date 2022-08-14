@@ -10,8 +10,8 @@ android {
         applicationId "app.lawnchair.lawnicons"
         minSdk 26
         targetSdk 32
-        versionCode 261
-        versionName 'V2.6_Beta'
+        versionCode 264
+        versionName 'V2.6_Stable'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
