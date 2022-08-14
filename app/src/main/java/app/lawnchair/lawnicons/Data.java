@@ -43,7 +43,16 @@ public class Data extends Thread {
     }
 
     private static void loadLatestIcons() {
-        latestIcons.add(new Icon("No kangs", ResourcesCompat.getDrawable(context.getResources(), R.drawable.no_kangs, null)));
+        latestIcons.add(new Icon("App Cloner Premium", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_appcloner, null)));
+        latestIcons.add(new Icon("AppBar", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_appbar, null)));
+        latestIcons.add(new Icon("ApnaComplex", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_apnacomplex, null)));
+        latestIcons.add(new Icon("AntennaPod", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_antennapod, null)));
+        latestIcons.add(new Icon("Another notes app", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_another_notes, null)));
+        latestIcons.add(new Icon("AnonyTun", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_anonytun, null)));
+        latestIcons.add(new Icon("AnimeIndo", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_animeindo, null)));
+        latestIcons.add(new Icon("Aniyomi", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_aniyomi, null)));
+        latestIcons.add(new Icon("Vanced Manager v2", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_vanced_manager, null)));
+        latestIcons.add(new Icon("GTA San Andreas", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_gta_sanandreas, null)));
         //Request Icons
         latestIcons.add(new Icon("Request More", ResourcesCompat.getDrawable(context.getResources(), R.drawable.ic_request, null), true));
     }
