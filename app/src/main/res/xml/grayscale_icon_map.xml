@@ -647,6 +647,7 @@
     <icon drawable="@drawable/themed_icon_myntra" name="MISSING" package="com.myntra.android" />
     <icon drawable="@drawable/themed_icon_nagad" name="Nagad" package="com.konasl.nagad" />
     <icon drawable="@drawable/themed_icon_naptime" name="Naptime" package="com.franco.doze" />
+    <icon drawable="@drawable/themed_icon_naver_map" name="Naver Map" package="com.nhn.android.nmap" />
     <icon drawable="@drawable/themed_icon_nekogram" name="MISSING" package="nekox.messenger" />
     <icon drawable="@drawable/themed_icon_nekogram" name="MISSING" package="tw.nekomimi.nekogram" />
     <icon drawable="@drawable/themed_icon_netflix" name="Netflix" package="com.netflix.mediaclient" />
