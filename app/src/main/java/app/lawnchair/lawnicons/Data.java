@@ -43,16 +43,22 @@ public class Data extends Thread {
     }
 
     private static void loadLatestIcons() {
-        latestIcons.add(new Icon("App Cloner Premium", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_appcloner, null)));
-        latestIcons.add(new Icon("AppBar", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_appbar, null)));
-        latestIcons.add(new Icon("ApnaComplex", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_apnacomplex, null)));
-        latestIcons.add(new Icon("AntennaPod", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_antennapod, null)));
-        latestIcons.add(new Icon("Another notes app", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_another_notes, null)));
-        latestIcons.add(new Icon("AnonyTun", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_anonytun, null)));
-        latestIcons.add(new Icon("AnimeIndo", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_animeindo, null)));
-        latestIcons.add(new Icon("Aniyomi", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_aniyomi, null)));
-        latestIcons.add(new Icon("Vanced Manager v2", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_vanced_manager, null)));
-        latestIcons.add(new Icon("GTA San Andreas", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_gta_sanandreas, null)));
+        latestIcons.add(new Icon("OnePlus Camera", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_oneplus_camera, null)));
+        latestIcons.add(new Icon("Naver Dictionary", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_naver_dict, null)));
+        latestIcons.add(new Icon("Halyk", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_halyk, null)));
+        latestIcons.add(new Icon("Forte", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_forte_bank, null)));
+        latestIcons.add(new Icon("Home Credit", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_homecredit, null)));
+        latestIcons.add(new Icon("Doppelreim", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_doppelreim, null)));
+        latestIcons.add(new Icon("Xenowerk", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_xenowerk, null)));
+        latestIcons.add(new Icon("WA Stickers", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wastickers, null)));
+        latestIcons.add(new Icon("OI Safe", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_oisafe, null)));
+        latestIcons.add(new Icon("Post & DHL", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_post_dhl, null)));
+        latestIcons.add(new Icon("Wordscapes", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wordscapes, null)));
+        latestIcons.add(new Icon("WienMobil", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wienmobil, null)));
+        latestIcons.add(new Icon("LEO Dictionary", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_leo, null)));
+        latestIcons.add(new Icon("FL Studio Mobile", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_flm, null)));
+        latestIcons.add(new Icon("Bitmoji", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_bitmoji, null)));
+        latestIcons.add(new Icon("vtosters", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_vtosters, null)));
         //Request Icons
         latestIcons.add(new Icon("Request More", ResourcesCompat.getDrawable(context.getResources(), R.drawable.ic_request, null), true));
     }
