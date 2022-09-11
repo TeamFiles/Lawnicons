@@ -37,7 +37,8 @@
                     android:layout_height="50dp"
                     android:layout_centerInParent="true"
                     android:scaleType="centerCrop"
-                    android:src="@color/launcher_icon" />
+                    android:src="@color/launcher_icon"
+                    app:tint="@color/app_icon_color"/>
             </RelativeLayout>
 
             <TextView

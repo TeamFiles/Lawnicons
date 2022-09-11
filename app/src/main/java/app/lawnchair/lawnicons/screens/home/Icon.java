@@ -34,8 +34,4 @@ public class Icon {
     public boolean isRequestBtn() {
         return requestBtn;
     }
-
-    public static void setDrawableColor(ImageView icon, Context context) {
-        DrawableCompat.setTint(icon.getDrawable(), ContextCompat.getColor(context.getApplicationContext(), R.color.app_icon_color));
-    }
 }

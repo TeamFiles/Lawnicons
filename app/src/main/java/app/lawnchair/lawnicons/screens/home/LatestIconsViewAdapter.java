@@ -40,7 +40,6 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
     public void onBindViewHolder(@NonNull LatestIconsViewAdapter.ViewHolder holder, int position) {
         holder.appName.setText(icons.get(position).getName());
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
-        Icon.setDrawableColor(holder.appIcon, context);
         if (icons.get(position).isRequestBtn()) {
             holder.iconBg.setCardBackgroundColor(context.getColor(R.color.reqBtnBg));
             holder.parent.setOnClickListener(new View.OnClickListener() {

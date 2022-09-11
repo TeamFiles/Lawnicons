@@ -38,7 +38,6 @@ public class AllIconsViewAdapter extends RecyclerView.Adapter<AllIconsViewAdapte
     public void onBindViewHolder(@NonNull AllIconsViewAdapter.ViewHolder holder, int position) {
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
         holder.appName.setText(icons.get(position).getName());
-        Icon.setDrawableColor(holder.appIcon, context);
         holder.itemView.setAnimation(AnimationUtils.loadAnimation(context, R.anim.zoom_in));
     }
 
