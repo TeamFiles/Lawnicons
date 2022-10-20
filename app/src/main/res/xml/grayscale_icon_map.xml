@@ -111,7 +111,7 @@
     <icon drawable="@drawable/themed_icon_anythingtopip" name="Anything to PiP" package="com.vitolaminafra.imagetopip" />
     <icon drawable="@drawable/themed_icon_anytype" name="Anytype" package="com.anytypeio.anytype" />
     <icon drawable="@drawable/themed_icon_aosp_clock" name="Xiaomi Clock" package="com.android.deskclock" />
-    <icon drawable="@drawable/themed_icon_aov" name="Arena of Valor" package="com.ngame.allstar.eu" />
+    <icon drawable="@drawable/themed_icon_aov" name="A`na of Valor" package="com.ngame.allstar.eu" />
     <icon drawable="@drawable/themed_icon_apex_legends" name="Apex Legends Mobile" package="com.ea.gp.apexlegendsmobilefps" />
     <icon drawable="@drawable/themed_icon_apk_editor_master" name="Apk Editor Master" package="com.gmail.heagoo.apkeditor.pro" />
     <icon drawable="@drawable/themed_icon_apkmirror" name="APKMirror Installer" package="com.apkmirror.helper.prod" />
@@ -824,6 +824,7 @@
     <icon drawable="@drawable/themed_icon_retro_music" name="MISSING" package="io.github.muntashirakon.Music.debug" />
     <icon drawable="@drawable/themed_icon_retro_music" name="Retro Music Player" package="code.name.monkey.retromusic" />
     <icon drawable="@drawable/themed_icon_retroarch" name="RetroArch Plus" package="com.retroarch" />
+    <icon drawable="@drawable/themed_icon_revanced_manager" name="ReVanced Manager" package="app.revanced.manager.flutter" /> 
     <icon drawable="@drawable/themed_icon_revolut" name="Revolut" package="com.revolut.revolut" />
     <icon drawable="@drawable/themed_icon_rl_sideswipe" name="Rocket League Sideswipe" package="com.Psyonix.RL2D" />
     <icon drawable="@drawable/themed_icon_roblox" name="Roblox" package="com.roblox.client" />
