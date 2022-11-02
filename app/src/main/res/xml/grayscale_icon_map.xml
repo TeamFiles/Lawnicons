@@ -209,6 +209,7 @@
     <icon drawable="@drawable/themed_icon_calculator" name="Calculator" package="com.android.calculator2" />
     <icon drawable="@drawable/themed_icon_calculator" name="Google Calculator" package="com.google.android.calculator" />
     <icon drawable="@drawable/themed_icon_calculator_plus_plus" name="Calculator ++" package="org.solovyev.android.calculator" />
+    <icon drawable="@drawable/themed_icon_calendar_9" name="Calendar" package="com.android.calendar" />
     <icon drawable="@drawable/themed_icon_calm" name="Calm" package="com.calm.android" />
     <icon drawable="@drawable/themed_icon_camera" name="Camera" package="com.GoogleCamera.Burial" />
     <icon drawable="@drawable/themed_icon_camera" name="Camera" package="com.android.camera2" />
@@ -403,6 +404,7 @@
     <icon drawable="@drawable/themed_icon_file_manager" name="File Manager" package="com.alphainventor.filemanager" />
     <icon drawable="@drawable/themed_icon_files" name="Amaze File Manager" package="com.amaze.filemanager" />
     <icon drawable="@drawable/themed_icon_files" name="Files by Google" package="com.google.android.apps.nbu.files" />
+    <icon drawable="@drawable/themed_icon_files" name="Files" package="com.android.fileexplorer" />
     <icon drawable="@drawable/themed_icon_filmic_pro" name="Filmic Pro" package="com.filmic.filmicpro" />
     <icon drawable="@drawable/themed_icon_find_my_device" name="Google Find My Device" package="com.google.android.apps.adm" />
     <icon drawable="@drawable/themed_icon_find_my_device_s" name="MISSING" package="de.nulide.findmydevice" />
@@ -657,7 +659,11 @@
     <icon drawable="@drawable/themed_icon_microsoft_teams" name="Microsoft Teams" package="com.microsoft.teams" />
     <icon drawable="@drawable/themed_icon_microsoft_todo" name="Microsoft To Do" package="com.microsoft.todos" />
     <icon drawable="@drawable/themed_icon_microsoft_word" name="Microsoft Word" package="com.microsoft.office.word" />
+    <icon drawable="@drawable/themed_icon_calendar_3" name="Mi Calendar" package="com.xiaomi.calendar" />
+    <icon drawable="@drawable/themed_icon_files" name="Mi File Manager" package="com.mi.android.globalFileexplorer" />
     <icon drawable="@drawable/themed_icon_mifit" name="Zepp Life(MiFit)" package="com.xiaomi.hm.health" />
+    <icon drawable="@drawable/themed_icon_gallery" name="Mi Gallery" package="com.miui.gallery" />
+    <icon drawable="@drawable/themed_icon_music" name="Mi Music" package="com.miui.player" />
     <icon drawable="@drawable/themed_icon_mijn_hr" name="MISSING" package="com.hogeschoolrotterdam.student" />
     <icon drawable="@drawable/themed_icon_million_az" name="MISSING" package="com.safaroff.million_android" />
     <icon drawable="@drawable/themed_icon_minecraft" name="MISSING" package="com.mojang.minecraftpe" />
