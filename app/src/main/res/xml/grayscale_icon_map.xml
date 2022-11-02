@@ -856,6 +856,7 @@
     <icon drawable="@drawable/themed_icon_retro_music" name="MISSING" package="io.github.muntashirakon.Music.debug" />
     <icon drawable="@drawable/themed_icon_retro_music" name="Retro Music Player" package="code.name.monkey.retromusic" />
     <icon drawable="@drawable/themed_icon_retroarch" name="RetroArch Plus" package="com.retroarch" />
+    <icon drawable="@drawable/themed_icon_revanced_manager" name="ReVanced Manager" package="app.revanced.manager.flutter" />
     <icon drawable="@drawable/themed_icon_revolut" name="Revolut" package="com.revolut.revolut" />
     <icon drawable="@drawable/themed_icon_rl_sideswipe" name="Rocket League Sideswipe" package="com.Psyonix.RL2D" />
     <icon drawable="@drawable/themed_icon_roblox" name="Roblox" package="com.roblox.client" />
