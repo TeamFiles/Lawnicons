@@ -582,7 +582,7 @@
     <icon drawable="@drawable/themed_icon_lawnchair" name="Lawnchair 2" package="ch.deletescape.lawnchair.plah" />
     <icon drawable="@drawable/themed_icon_lawnchair" name="Lawnchair" package="app.lawnchair" />
     <icon drawable="@drawable/themed_icon_lazada" name="Lazada" package="com.lazada.android" />
-    <icon drawable="@drawable/themed_icon_legends_of_runeterra" name="Legends of Runeterra" package="com.riotgames.legendsofruneterra" />
+    <icon drawable="@drawable/```themed_icon_legends_of_runeterra" name="Legends of Runeterra" package="com.riotgames.legendsofruneterra" />
     <icon drawable="@drawable/themed_icon_lens" name="Google Lens" package="com.google.ar.lens" />
     <icon drawable="@drawable/themed_icon_leo" name="LEO" package="org.leo.android.dict" />
     <icon drawable="@drawable/themed_icon_leo_bank" name="MISSING" package="com.ftfarm.leo" />
@@ -639,6 +639,7 @@
     <icon drawable="@drawable/themed_icon_merge_war" name="Merge War" package="com.wildsky.wildarmydraft" />
     <icon drawable="@drawable/themed_icon_messages" name="Messages" package="com.google.android.apps.messaging" />
     <icon drawable="@drawable/themed_icon_messages" name="Messaging" package="com.android.messaging" />
+    <icon drawable="@drawable/themed_icon_messages" name="SMS Messenger" package="com.simplemobiletools.smsmessanger" />
     <icon drawable="@drawable/themed_icon_messenger" name="Facebook Messenger Lite" package="com.facebook.mlite" />
     <icon drawable="@drawable/themed_icon_messenger" name="Facebook Messenger" package="com.facebook.orca" />
     <icon drawable="@drawable/themed_icon_metamask" name="MetaMask" package="io.metamask" />
@@ -744,12 +745,14 @@
     <icon drawable="@drawable/themed_icon_oneplus_calculator" name="OnePlus Calculator" package="com.oneplus.calculator" />
     <icon drawable="@drawable/themed_icon_oneplus_camera" name="OnePlus Camera" package="com.oneplus.camera" />
     <icon drawable="@drawable/themed_icon_oneplus_gallery" name="OnePlus Gallery" package="com.oneplus.gallery" />
+    <icon drawable="@drawable/themed_icon_onlyoffice" name="ONLYOFFICE Documents" package="com.onlyoffice.documents" />
     <icon drawable="@drawable/themed_icon_open_link_with" name="Open Link With" package="com.tasomaniac.openwith.floss" />
     <icon drawable="@drawable/themed_icon_opera" name="Opera Browser" package="com.opera.browser" />
     <icon drawable="@drawable/themed_icon_opera_beta" name="Opera browser beta with VPN" package="com.opera.browser.beta" />
     <icon drawable="@drawable/themed_icon_opera_gx" name="Opera GX" package="com.opera.gx" />
     <icon drawable="@drawable/themed_icon_opera_mini" name="Opera Mini browser beta" package="com.opera.mini.native" />
     <icon drawable="@drawable/themed_icon_opera_mini_beta" name="Opera Mini browser beta" package="com.opera.mini.native.beta" />
+    <icon drawable="@drawable/themed_icon_organicmaps" name="Organic Maps" package="app.organicmaps" />
     <icon drawable="@drawable/themed_icon_osmand" name="OsmAnd" package="net.osmand" />
     <icon drawable="@drawable/themed_icon_osmand_plus" name="MISSING" package="net.osmand.plus" />
     <icon drawable="@drawable/themed_icon_oto_music" name="Oto Music" package="com.piyush.music" />
@@ -802,6 +805,7 @@
     <icon drawable="@drawable/themed_icon_plex" name="Plex" package="com.plexapp.android" />
     <icon drawable="@drawable/themed_icon_pluma" name="MISSING" package="qijaz221.android.rss.reader" />
     <icon drawable="@drawable/themed_icon_plus_messenger" name="Plus Messenger" package="org.telegram.plus" />
+    <icon drawable="@drawable/themed_icon_pnc" name="PNC" package="com.pnc.ecommerce.mobile" />
     <icon drawable="@drawable/themed_icon_pocket_casts" name="MISSING" package="au.com.shiftjelly.pocketcasts" />
     <icon drawable="@drawable/themed_icon_podcasts" name="Google Podcasts" package="com.google.android.apps.podcasts" />
     <icon drawable="@drawable/themed_icon_pokemon_go" name="Pokémon GO" package="com.nianticlabs.pokemongo" />
@@ -950,6 +954,7 @@
     <icon drawable="@drawable/themed_icon_spotiflyer" name="MISSING" package="com.shabinder.spotiflyer" />
     <icon drawable="@drawable/themed_icon_spotify" name="MISSING" package="com.spotify.lite" />
     <icon drawable="@drawable/themed_icon_spotify" name="MISSING" package="com.spotify.music" />
+    <icon drawable="@drawable/themed_icon_standardnotes" name="Standard Notes" package="com.standardnotes" />
     <icon drawable="@drawable/themed_icon_star_plus" name="Star+ (Android TV)" package="com.disney.starplus" />
     <icon drawable="@drawable/themed_icon_starwalk" name="Star Walk 2 Ads+ Sky Map View" package="com.vitotechnology.StarWalk" />
     <icon drawable="@drawable/themed_icon_starwalk" name="Star Walk 2 Ads+ Sky Map View" package="com.vitotechnology.StarWalk2Free" />
