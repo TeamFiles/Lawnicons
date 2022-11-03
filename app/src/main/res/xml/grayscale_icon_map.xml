@@ -113,6 +113,7 @@
     <icon drawable="@drawable/themed_icon_anyboost" name="AnyBoost" package="anyboost.app" />
     <icon drawable="@drawable/themed_icon_anythingtopip" name="Anything to PiP" package="com.vitolaminafra.imagetopip" />
     <icon drawable="@drawable/themed_icon_anytype" name="Anytype" package="com.anytypeio.anytype" />
+    <icon drawable="@drawable/themed_icon_anz" name="ANZ" package="com.anz.android.gomoney" />
     <icon drawable="@drawable/themed_icon_aosp_clock" name="Xiaomi Clock" package="com.android.deskclock" />
     <icon drawable="@drawable/themed_icon_aov" name="Arena of Valor" package="com.ngame.allstar.eu" />
     <icon drawable="@drawable/themed_icon_apex_legends" name="Apex Legends Mobile" package="com.ea.gp.apexlegendsmobilefps" />
