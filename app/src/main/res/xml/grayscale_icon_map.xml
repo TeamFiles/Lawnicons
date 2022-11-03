@@ -257,6 +257,7 @@
     <icon drawable="@drawable/themed_icon_camera_go" name="Google Camera Go" package="com.google.android.apps.cameralite" />
     <icon drawable="@drawable/themed_icon_camscanner" name="CamScanner" package="com.intsig.camscanner" />
     <icon drawable="@drawable/themed_icon_canvas" name="Canva" package="com.canva.editor" />
+    <icon drawable="@drawable/themed_icon_canvas_student" name="Canvas Student" package="com.instructure.candroid" />
     <icon drawable="@drawable/themed_icon_capcut" name="CapCut" package="com.lemon.lvoverseas" />
     <icon drawable="@drawable/themed_icon_cartogram" name="Cartogram - Live Map Wallpaper" package="com.round_tower.app.android.wallpaper.cartogram" />
     <icon drawable="@drawable/themed_icon_cat_and_soup" name="Cat and Soup" package="com.hidea.cat" />
@@ -577,6 +578,7 @@
     <icon drawable="@drawable/themed_icon_lamoda" name="MISSING" package="com.lamoda.lite" />
     <icon drawable="@drawable/themed_icon_lastfm" name="Last.fm" package="fm.last.android" />
     <icon drawable="@drawable/themed_icon_lastpass" name="LastPass Password Manager" package="com.lastpass.lpandroid" />
+    <icon drawable="@drawable/themed_icon_laudate" name="Laudate" package="com.aycka.apps.MassReadings" />
     <icon drawable="@drawable/themed_icon_lawnchair" name="Lawnchair 2" package="ch.deletescape.lawnchair.plah" />
     <icon drawable="@drawable/themed_icon_lawnchair" name="Lawnchair" package="app.lawnchair" />
     <icon drawable="@drawable/themed_icon_lazada" name="Lazada" package="com.lazada.android" />
