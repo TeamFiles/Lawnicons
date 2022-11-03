@@ -582,7 +582,7 @@
     <icon drawable="@drawable/themed_icon_lawnchair" name="Lawnchair 2" package="ch.deletescape.lawnchair.plah" />
     <icon drawable="@drawable/themed_icon_lawnchair" name="Lawnchair" package="app.lawnchair" />
     <icon drawable="@drawable/themed_icon_lazada" name="Lazada" package="com.lazada.android" />
-    <icon drawable="@drawable/```themed_icon_legends_of_runeterra" name="Legends of Runeterra" package="com.riotgames.legendsofruneterra" />
+    <icon drawable="@drawable/themed_icon_legends_of_runeterra" name="Legends of Runeterra" package="com.riotgames.legendsofruneterra" />
     <icon drawable="@drawable/themed_icon_lens" name="Google Lens" package="com.google.ar.lens" />
     <icon drawable="@drawable/themed_icon_leo" name="LEO" package="org.leo.android.dict" />
     <icon drawable="@drawable/themed_icon_leo_bank" name="MISSING" package="com.ftfarm.leo" />
