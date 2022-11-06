@@ -86,6 +86,7 @@
     <icon drawable="@drawable/themed_icon_amazon_seller" name="Amazon Seller" package="com.amazon.sellermobile.android" />
     <icon drawable="@drawable/themed_icon_amazon_shopping" name="Amazon India" package="in.amazon.mShop.android.shopping" />
     <icon drawable="@drawable/themed_icon_amazon_shopping" name="Amazon Shopping" package="com.amazon.mShop.android.shopping" />
+    <icon drawable="@drawable/themed_icon_amen" name="Amen" package="org.amenapp.amen" />
     <icon drawable="@drawable/themed_icon_amongus" name="Among Us" package="com.innersloth.spacemafia" />
     <icon drawable="@drawable/themed_icon_ampere" name="Ampere" package="com.gombosdev.ampere" />
     <icon drawable="@drawable/themed_icon_andotp" name="andOTP - OTP Authenticator" package="org.shadowice.flocke.andotp" />
@@ -141,6 +142,7 @@
     <icon drawable="@drawable/themed_icon_athan" name="Athan" package="com.athan" />
     <icon drawable="@drawable/themed_icon_attapoll" name="AttaPoll" package="com.requapp.requ" />
     <icon drawable="@drawable/themed_icon_audiomack" name="Audiomack" package="com.audiomack" />
+    <icon drawable="@drawable/themed_icon_auditor" name="Auditor" package="app.attestation.auditor" />
     <icon drawable="@drawable/themed_icon_aurora_droid" name="Aurora Droid" package="com.aurora.adroid" />
     <icon drawable="@drawable/themed_icon_aurora_store" name="Aurora Store" package="com.aurora.store" />
     <icon drawable="@drawable/themed_icon_authenticator" name="Google Authenticator" package="com.google.android.apps.authenticator2" />
@@ -430,6 +432,7 @@
     <icon drawable="@drawable/themed_icon_forpda" name="MISSING" package="ru.forpdateam.forpda" />
     <icon drawable="@drawable/themed_icon_forte_bank" name="Forte" package="kz.forte.app.store" />
     <icon drawable="@drawable/themed_icon_fortnite" name="MISSING" package="com.epicgames.fortnite" />
+    <icon drawable="@drawable/themed_icon_formed" name="FORMED" package="com.ai.formed.formed" />
     <icon drawable="@drawable/themed_icon_fotor" name="Fotor" package="com.everimaging.photoeffectstudio" />
     <icon drawable="@drawable/themed_icon_four_pda" name="4PDA" package="ru.fourpda.client" />
     <icon drawable="@drawable/themed_icon_fox_mmm" name="Fox's Magisk Module Manager" package="com.fox2code.mmm" />
@@ -492,6 +495,7 @@
     <icon drawable="@drawable/themed_icon_gosuslugi" name="MISSING" package="ru.rostel" />
     <icon drawable="@drawable/themed_icon_gpay" name="Google Pay (old app)" package="com.google.android.apps.walletnfcrel" />
     <icon drawable="@drawable/themed_icon_gpay" name="Google Pay" package="com.google.android.apps.nbu.paisa.user" />
+    <icon drawable="@drawable/themed_icon_graphene_apps" name="Apps" package="app.grapheneos.apps" />
     <icon drawable="@drawable/themed_icon_graphene_cam" name="Secure Camera" package="app.grapheneos.camera" />
     <icon drawable="@drawable/themed_icon_greenify" name="Greenify" package="com.oasisfeng.greenify" />
     <icon drawable="@drawable/themed_icon_grindr" name="Grindr" package="com.grindrapp.android" />
@@ -639,7 +643,6 @@
     <icon drawable="@drawable/themed_icon_merge_war" name="Merge War" package="com.wildsky.wildarmydraft" />
     <icon drawable="@drawable/themed_icon_messages" name="Messages" package="com.google.android.apps.messaging" />
     <icon drawable="@drawable/themed_icon_messages" name="Messaging" package="com.android.messaging" />
-    <icon drawable="@drawable/themed_icon_messages" name="SMS Messenger" package="com.simplemobiletools.smsmessanger" />
     <icon drawable="@drawable/themed_icon_messenger" name="Facebook Messenger Lite" package="com.facebook.mlite" />
     <icon drawable="@drawable/themed_icon_messenger" name="Facebook Messenger" package="com.facebook.orca" />
     <icon drawable="@drawable/themed_icon_metamask" name="MetaMask" package="io.metamask" />
@@ -772,6 +775,7 @@
     <icon drawable="@drawable/themed_icon_paypal_business" name="PayPal Business" package="com.paypal.merchant.client" />
     <icon drawable="@drawable/themed_icon_paytm" name="MISSING" package="net.197.paytm" />
     <icon drawable="@drawable/themed_icon_paytm" name="MISSING" package="net.one97.paytm" />
+    <icon drawable="@drawable/themed_icon_pdf_viewer" name="PDF Viewer" package="app.grapheneos.pdfviewer" />
     <icon drawable="@drawable/themed_icon_pdf_viewer" name="MISSING" package="com.saverio.pdfviewer" />
     <icon drawable="@drawable/themed_icon_pedulilindungi" name="PeduliLindungi" package="com.telkom.tracencare" />
     <icon drawable="@drawable/themed_icon_pharmeasy" name="MISSING" package="com.phonegap.rxpal" />
@@ -892,7 +896,9 @@
     <icon drawable="@drawable/themed_icon_screeno" name="MISSING" package="com.bytelogs.screenrecorder" />
     <icon drawable="@drawable/themed_icon_sdmaid" name="MISSING" package="eu.thedarken.sdm.unlocker" />
     <icon drawable="@drawable/themed_icon_sdmaid" name="SD Maid" package="eu.thedarken.sdm" />
+    <icon drawable="@drawable/themed_icon_semitone" name="Semitone" package="mn.tck.semitone" />
     <icon drawable="@drawable/themed_icon_sesame_search" name="Sesame Search" package="ninja.sesame.app.edge" />
+    <icon drawable="@drawable/themed_icon_session" name="Session" package="network.loki.messenger" />
     <icon drawable="@drawable/themed_icon_settings" name="Settings" package="com.android.settings" />
     <icon drawable="@drawable/themed_icon_shadow_fight_2" name="Shadow Fight 2" package="com.nekki.shadowfight" />
     <icon drawable="@drawable/themed_icon_shadowsocks" name="Shadowsocks" package="com.github.shadowsocks" />
