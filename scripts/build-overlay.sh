@@ -7,13 +7,19 @@ else
     exit
 fi
 
+#Declaring variables for file paths
+drawable="../ThemedIconsOverlay/res/drawable"
+xml="../ThemedIconsOverlay/res/xml"
+
 #Delete redundant files inside ThemedIconsOverlay folder
-rm ../ThemedIconsOverlay/res/drawable/* ../ThemedIconsOverlay/res/xml/grayscale_icon_map.xml ../ThemedIconsOverlay/res/values/public.xml 2>/dev/null
+rm -rf $drawable $xml 2>/dev/null
+rm ../ThemedIconsOverlay/res/values/public.xml 2>/dev/null
 echo "Deleted old files!"
 
 #Copy drawables from Lawnicons project to the overlay
 echo "Copying drawables from Lawnicons app folder..."
-if cp ../app/src/main/res/drawable/themed* ../ThemedIconsOverlay/res/drawable
+mkdir -p $drawable $xml 2>/dev/null
+if cp ../app/src/main/res/drawable/themed* $drawable
 then
     echo "Done copying!"
 else
@@ -25,7 +31,7 @@ fi
 
 #Copy grayscale_icon_map.xml from Lawnicons project to the overlay
 echo "Copying grayscale_icon_map.xml from Lawnicons app folder..."
-if cp ../app/src/main/res/xml/grayscale_icon_map.xml ../ThemedIconsOverlay/res/xml/
+if cp ../app/src/main/res/xml/grayscale_icon_map.xml $xml
 then
     echo "Done!"
 else
