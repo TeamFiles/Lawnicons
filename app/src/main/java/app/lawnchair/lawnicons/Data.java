@@ -43,29 +43,20 @@ public class Data extends Thread {
     }
 
     private static void loadLatestIcons() {
-        latestIcons.add(new Icon("Gett", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_gett, null)));
-        latestIcons.add(new Icon("adidas Running", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_adidas_running, null)));
-        latestIcons.add(new Icon("Radio FM", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_radio_fm, null)));
-        latestIcons.add(new Icon("The Guardian Editions", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_the_guardian_editions, null)));
-        latestIcons.add(new Icon("Guardian", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_guardian, null)));
-        latestIcons.add(new Icon("ASKfm", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_askfm, null)));
-        latestIcons.add(new Icon("Kahoot!", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_kahoot, null)));
-        latestIcons.add(new Icon("ho.", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_ho, null)));
-        latestIcons.add(new Icon("didUP - Famiglia", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_didup_famiglia, null)));
-        latestIcons.add(new Icon("Ola Electric", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_ola_electric, null)));
-        latestIcons.add(new Icon("PlantNet", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_plantnet, null)));
-        latestIcons.add(new Icon("Financial Times", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_financial_times, null)));
-        latestIcons.add(new Icon("Washington Post", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_washington_post, null)));
-        latestIcons.add(new Icon("Hotels.com", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_hotels_com, null)));
-        latestIcons.add(new Icon("Cheapflights", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_cheapflights, null)));
-        latestIcons.add(new Icon("Skyscanner", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_skyscanner, null)));
-        latestIcons.add(new Icon("Ryanair", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_ryanair, null)));
-        latestIcons.add(new Icon("Wizz Air", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wizz_air, null)));
-        latestIcons.add(new Icon("KAYAK", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_kayak, null)));
-        latestIcons.add(new Icon("Revanced Manager", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_revanced_manager, null)));
+        latestIcons.add(new Icon("Wise", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wise, null)));
+        latestIcons.add(new Icon("Relive", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_relive, null)));
+        latestIcons.add(new Icon("HiBy Music", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_hiby_music, null)));
+        latestIcons.add(new Icon("Mi Fitness", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_mi_fitness, null)));
+        latestIcons.add(new Icon("HryFine", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_hryfine, null)));
+        latestIcons.add(new Icon("M2wear", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_m2wear, null)));
+        latestIcons.add(new Icon("M2 Wear", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_m2_wear, null)));
+        latestIcons.add(new Icon("MasWear", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_maswear, null)));
+        latestIcons.add(new Icon("Wonderous", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wonderous, null)));
+        latestIcons.add(new Icon("Lingvist", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_lingvist, null)));
+        latestIcons.add(new Icon("Tonkeeper", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_tonkeeper, null)));
 
         //Request Icons
-        latestIcons.add(new Icon("Request More", ResourcesCompat.getDrawable(context.getResources(), R.drawable.ic_request, null), true));
+        //latestIcons.add(new Icon("Request More", ResourcesCompat.getDrawable(context.getResources(), R.drawable.ic_request, null), true));
     }
 
     public static ArrayList<Icon> getLatestIcons() {
