@@ -40,21 +40,21 @@ public class LatestIconsViewAdapter extends RecyclerView.Adapter<LatestIconsView
     public void onBindViewHolder(@NonNull LatestIconsViewAdapter.ViewHolder holder, int position) {
         holder.appName.setText(icons.get(position).getName());
         holder.appIcon.setImageDrawable(icons.get(position).getIcon());
-        if (icons.get(position).isRequestBtn()) {
-            holder.iconBg.setCardBackgroundColor(context.getColor(R.color.reqBtnBg));
-            holder.parent.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    try{
-                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/iconrequestsbot"));
-                        context.startActivity(intent);
-                    } catch(ActivityNotFoundException e){
-                        Toast.makeText(context, R.string.install_browser, Toast.LENGTH_SHORT).show();
-                        e.printStackTrace();
-                    }
-                }
-            });
-        }
+//        if (icons.get(position).isRequestBtn()) {
+//            holder.iconBg.setCardBackgroundColor(context.getColor(R.color.reqBtnBg));
+//            holder.parent.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    try{
+//                        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://telegram.me/iconrequestsbot"));
+//                        context.startActivity(intent);
+//                    } catch(ActivityNotFoundException e){
+//                        Toast.makeText(context, R.string.install_browser, Toast.LENGTH_SHORT).show();
+//                        e.printStackTrace();
+//                    }
+//                }
+//            });
+//        }
     }
 
     @Override
