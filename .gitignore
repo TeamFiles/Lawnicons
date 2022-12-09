@@ -7,6 +7,12 @@ release/
 .cxx
 *.zip
 
+#Unwanted files from ThemedIconsOverlay
+/ThemedIconsOverlay/build/
+/ThemedIconsOverlay/dist/
+/ThemedIconsOverlay/res/drawable/
+/ThemedIconsOverlay/res/xml/
+
 # Local configuration file (sdk path, etc)
 local.properties
 
