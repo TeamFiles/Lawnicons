@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.romcontrolicons.nexuslauncher" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
-    <overlay android:category="com.google.android.apps.nexuslauncher.themed_icons" android:isStatic="true" android:priority="0" android:targetPackage="com.google.android.apps.nexuslauncher"/>
-    <application android:extractNativeLibs="true" android:hasCode="false" android:label="Custom_Themed_Icons"/>
-</manifest>
