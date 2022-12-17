@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <icons>
+    <icon drawable="@drawable/themed_icon_alltrails" name="AllTrails" package="com.alltrails.alltrails" />
     <icon drawable="@array/grayscale_calendar_icons" name="Google Calendar" package="com.google.android.calendar" />
     <icon drawable="@array/grayscale_clock_icons" name="Google Clock" package="com.google.android.deskclock" />
     <icon drawable="@drawable/themed_icon_magroove" name="Magroove" package="com.magroove.app" />
