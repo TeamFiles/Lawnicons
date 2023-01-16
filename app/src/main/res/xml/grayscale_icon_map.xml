@@ -151,6 +151,8 @@
     <icon drawable="@drawable/themed_icon_authy" name="Twilio Authy Authenticator" package="com.authy.authy" />
     <icon drawable="@drawable/themed_icon_autodoc" name="AUTODOC" package="de.autodoc.gmbh" />
     <icon drawable="@drawable/themed_icon_autohz" name="AutoHZ" package="com.arter97.auto90" />
+    <icon drawable="@drawable/themed_icon_audible" name="Audible" package="com.audible.application" />
+    <icon drawable="@drawable/themed_icon_aosp_enhancer" name="AOSP Enhancer" package="com.looper.enhancer" />
     <icon drawable="@drawable/themed_icon_autotagger" name="AutoTagger" package="com.serg.chuprin.tageditor" />
     <icon drawable="@drawable/themed_icon_aviata" name="Aviata.kz" package="kz.glatis.aviata" />
     <icon drawable="@drawable/themed_icon_avito" name="Авито: квартиры, авто, работа" package="com.avito.android" />
@@ -784,6 +786,7 @@
     <icon drawable="@drawable/themed_icon_oneplus_calculator" name="OnePlus Calculator" package="com.oneplus.calculator" />
     <icon drawable="@drawable/themed_icon_oneplus_camera" name="OnePlus Camera" package="com.oneplus.camera" />
     <icon drawable="@drawable/themed_icon_oneplus_gallery" name="OnePlus Gallery" package="com.oneplus.gallery" />
+    <icon drawable="@drawable/themed_icon_onstream" name="OnStream" package="com.onstream.android" />
     <icon drawable="@drawable/themed_icon_open_link_with" name="Open Link With" package="com.tasomaniac.openwith.floss" />
     <icon drawable="@drawable/themed_icon_opera" name="Opera Browser" package="com.opera.browser" />
     <icon drawable="@drawable/themed_icon_opera_beta" name="Opera browser beta with VPN" package="com.opera.browser.beta" />
@@ -831,6 +834,7 @@
     <icon drawable="@drawable/themed_icon_pinterest" name="Pinterest" package="com.pinterest" />
     <icon drawable="@drawable/themed_icon_pixel_gun_3d" name="Pixel Gun 3d" package="com.pixel.gun3d" />
     <icon drawable="@drawable/themed_icon_pixel_mods" name="MISSING" package="com.metris.xposed.pmods" />
+    <icon drawable="@drawable/themed_icon_pixelcut" name="Pixelcut" package="com.circular.pixels" />
     <icon drawable="@drawable/themed_icon_pixeltips" name="Pixel Tips" package="com.google.android.apps.tips" />
     <icon drawable="@drawable/themed_icon_pixiv" name="pixiv" package="jp.pxv.android" />
     <icon drawable="@drawable/themed_icon_pl_mods" name="Pixel Launcher Mods" package="com.kieronquinn.app.pixellaunchermods" />
