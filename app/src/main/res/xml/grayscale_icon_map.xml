@@ -77,6 +77,7 @@
     <icon drawable="@drawable/themed_icon_alive_app" name="Alive APP" package="com.bootiq2.gtsisic" />
     <icon drawable="@drawable/themed_icon_alkitab" name="Alkitab" package="org.sabda.alkitab" />
     <icon drawable="@drawable/themed_icon_alkitab" name="Alkitab" package="yuku.alkitab" />
+    <icon drawable="@drawable/themed_icon_alltrails" name="AllTrails" package="com.alltrails.alltrails" />
     <icon drawable="@drawable/themed_icon_alphabackup" name="Alpha Backup Pro" package="com.ruet_cse_1503050.ragib.appbackup.pro" />
     <icon drawable="@drawable/themed_icon_alphabackup" name="Alpha Backup" package="com.ruet_cse_1503050.ragib.appbackup.iap" />
     <icon drawable="@drawable/themed_icon_alza" name="Alza" package="cz.alza.eshop" />
@@ -116,6 +117,7 @@
     <icon drawable="@drawable/themed_icon_anytype" name="Anytype" package="com.anytypeio.anytype" />
     <icon drawable="@drawable/themed_icon_aosp_clock" name="Xiaomi Clock" package="com.android.deskclock" />
     <icon drawable="@drawable/themed_icon_aov" name="Arena of Valor" package="com.ngame.allstar.eu" />
+    <icon drawable="@drawable/themed_icon_camera" name="Aperture" package="org.lineageos.aperture" />
     <icon drawable="@drawable/themed_icon_apex_legends" name="Apex Legends Mobile" package="com.ea.gp.apexlegendsmobilefps" />
     <icon drawable="@drawable/themed_icon_apk_editor_master" name="Apk Editor Master" package="com.gmail.heagoo.apkeditor.pro" />
     <icon drawable="@drawable/themed_icon_apkmirror" name="APKMirror Installer" package="com.apkmirror.helper.prod" />
@@ -182,6 +184,7 @@
     <icon drawable="@drawable/themed_icon_binance" name="Binance TR" package="com.cloud.tr" />
     <icon drawable="@drawable/themed_icon_binance" name="Binance" package="com.binance.dev" />
     <icon drawable="@drawable/themed_icon_bing" name="Microsoft Advertising" package="com.microsoft.bing" />
+    <icon drawable="@drawable/themed_icon_binnaz" name="Binnaz" package="com.binnazabla.kahvefali" />
     <icon drawable="@drawable/themed_icon_bir" name="Birbank" package="az.kapitalbank.mbanking" />
     <icon drawable="@drawable/themed_icon_bird" name="Bird — Ride Electric" package="co.bird.android" />
     <icon drawable="@drawable/themed_icon_bitmoji" name="Bitmoji" package="com.bitstrips.imoji" />
@@ -190,6 +193,7 @@
     <icon drawable="@drawable/themed_icon_blackboard" name="Blackboard" package="com.blackboard.android.bbstudent" />
     <icon drawable="@drawable/themed_icon_blackhole" name="BlackHole" package="com.shadow.blackhole" />
     <icon drawable="@drawable/themed_icon_blinkit" name="Blinkit (formerly grofers)" package="com.grofers.customerapp" />
+    <icon drawable="@drawable/themed_icon_blossom" name="Blossom" package="com.conceptivapps.blossom" />
     <icon drawable="@drawable/themed_icon_bms" name="BookMyShow" package="com.bt.bms" />
     <icon drawable="@drawable/themed_icon_bolt" name="Bolt" package="ee.mtakso.client" />
     <icon drawable="@drawable/themed_icon_booking" name="Booking.com" package="com.booking" />
@@ -265,6 +269,7 @@
     <icon drawable="@drawable/themed_icon_canvas" name="Canva" package="com.canva.editor" />
     <icon drawable="@drawable/themed_icon_capcut" name="CapCut" package="com.lemon.lvoverseas" />
     <icon drawable="@drawable/themed_icon_cartogram" name="Cartogram - Live Map Wallpaper" package="com.round_tower.app.android.wallpaper.cartogram" />
+    <icon drawable="@drawable/themed_icon_castbox" name="Castbox" package="fm.castbox.audiobook.radio.podcast" />
     <icon drawable="@drawable/themed_icon_cat_and_soup" name="Cat and Soup" package="com.hidea.cat" />
     <icon drawable="@drawable/themed_icon_catogram" name="Catogram X" package="org.nift4.catox" />
     <icon drawable="@drawable/themed_icon_cats" name="CATS: Crash Arena Turbo Stars" package="com.zeptolab.cats.google" />
@@ -322,10 +327,12 @@
     <icon drawable="@drawable/themed_icon_cytus2" name="Cytus II" package="com.rayark.cytus2" />
     <icon drawable="@drawable/themed_icon_dailyhunt" name="Dailyhunt" package="com.eterno" />
     <icon drawable="@drawable/themed_icon_dana" name="DANA" package="id.dana" />
+    <icon drawable="@drawable/themed_icon_dancefitme" name="DanceFitme" package="dance.fit.zumba.weightloss.danceburn" />
     <icon drawable="@drawable/themed_icon_daraz" name="Daraz" package="com.daraz.android" />
     <icon drawable="@drawable/themed_icon_darq" name="DarQ" package="com.kieronquinn.app.darq" />
     <icon drawable="@drawable/themed_icon_dashlane" name="Dashlane Password Manager" package="com.dashlane" />
     <icon drawable="@drawable/themed_icon_databackup" name="Xayah Data Backup" package="com.xayah.databackup" />
+    <icon drawable="@drawable/themed_icon_daylio" name="Daylio Journal" package="net.daylio" />
     <icon drawable="@drawable/themed_icon_deadcells" name="Dead Cells" package="com.playdigious.deadcells.mobile" />
     <icon drawable="@drawable/themed_icon_decathlon" name="Decathlon Online Shopping App" package="com.evamall.evacustomer" />
     <icon drawable="@drawable/themed_icon_deck_shop" name="Deck Shop for Clash Royale" package="pro.deckshop.app" />
@@ -374,13 +381,14 @@
     <icon drawable="@drawable/themed_icon_duolingo" name="Duolingo" package="com.duolingo" />
     <icon drawable="@drawable/themed_icon_duomobile" name="Duo Mobile" package="com.duosecurity.duomobile" />
     <icon drawable="@drawable/themed_icon_dvget" name="DVGet" package="com.dv.get" />
-    <icon drawable="@drawable/themed_icon_ear1" name="ear (1)" package="com.nothing.smartcenter" />
+    <icon drawable="@drawable/themed_icon_ear1" name="ear (1)" package="com.nothing.smartcenter"/>
     <icon drawable="@drawable/themed_icon_ebay" name="eBay" package="com.ebay.mobile" />
     <icon drawable="@drawable/themed_icon_ebaykleinanzeigen" name="eBay Kleinanzeigen" package="com.ebay.kleinanzeigen" />
     <icon drawable="@drawable/themed_icon_efootball_pes" name="eFootball" package="jp.konami.pesam" />
     <icon drawable="@drawable/themed_icon_egov" name="eGov mobile" package="kz.mobile.mgov" />
     <icon drawable="@drawable/themed_icon_ekatalog" name="MISSING" package="net.nadavi.ekmobile" />
     <icon drawable="@drawable/themed_icon_electron" name="MISSING" package="com.mahersafadi.electron" />
+    <icon drawable="@drawable/themed_icon_elegant" name="Elegant Splash Wallpapers" package="com.unfunnyguy.elegant" />
     <icon drawable="@drawable/themed_icon_element" name="Element" package="im.vector.app" />
     <icon drawable="@drawable/themed_icon_emanat" name="MISSING" package="mpay.emanat" />
     <icon drawable="@drawable/themed_icon_energy_infinity" name="MISSING" package="com.infinitygames.loopenergy" />
@@ -394,6 +402,7 @@
     <icon drawable="@drawable/themed_icon_eventbrite" name="Eventbrite" package="com.eventbrite.attendee" />
     <icon drawable="@drawable/themed_icon_evernote" name="Evernote" package="com.evernote" />
     <icon drawable="@drawable/themed_icon_evoxpapers" name="MISSING" package="org.evolutionx.papers" />
+    <icon drawable="@drawable/themed_icon_exodus_crypto" name="Exodus Crypto" package="exodusmovement.exodus" />
     <icon drawable="@drawable/themed_icon_express_vpn" name="ExpressVPN" package="com.expressvpn.vpn" />
     <icon drawable="@drawable/themed_icon_exteragram" name="MISSING" package="com.exteragram.messenger" />
     <icon drawable="@drawable/themed_icon_exteragram" name="MISSING" package="com.exteragram.messenger.beta" />
@@ -410,6 +419,7 @@
     <icon drawable="@drawable/themed_icon_fasthub" name="MISSING" package="com.fastaccess.github.debug" />
     <icon drawable="@drawable/themed_icon_fasting" name="Fasting" package="bodyfast.zero.fastingtracker.weightloss" />
     <icon drawable="@drawable/themed_icon_fdroid" name="F-Droid" package="org.fdroid.fdroid" />
+    <icon drawable="@drawable/themed_icon_feedly" name="Feedly" package="com.devhd.feedly" />
     <icon drawable="@drawable/themed_icon_fennec" name="Fennec F-Droid" package="org.mozilla.fennec_fdroid" />
     <icon drawable="@drawable/themed_icon_ff7fs" name="FF7FS" package="com.square_enix.android_googleplay.ff7fsww" />
     <icon drawable="@drawable/themed_icon_fgames_radar" name="MISSING" package="de.apuri.free.games" />
@@ -417,7 +427,7 @@
     <icon drawable="@drawable/themed_icon_file_manager" name="File Manager" package="com.alphainventor.filemanager" />
     <icon drawable="@drawable/themed_icon_files" name="Amaze File Manager" package="com.amaze.filemanager" />
     <icon drawable="@drawable/themed_icon_files" name="Files by Google" package="com.google.android.apps.nbu.files" />
-    <icon drawable="@drawable/themed_icon_files" name="Files" package="com.android.fileexplorer" />
+    <icon drawable="@drawable/themed_icon_files" name="Files" package="com.android.fileexplorer"/>
     <icon drawable="@drawable/themed_icon_filmic_pro" name="Filmic Pro" package="com.filmic.filmicpro" />
     <icon drawable="@drawable/themed_icon_financial_times" name="Financial Times" package="com.ft.news" />
     <icon drawable="@drawable/themed_icon_find_my_device" name="Google Find My Device" package="com.google.android.apps.adm" />
@@ -521,6 +531,7 @@
     <icon drawable="@drawable/themed_icon_guardian" name="Guardian" package="com.guardian" />
     <icon drawable="@drawable/themed_icon_guitar_tuna" name="GuitarTuna" package="com.ovelin.guitartuna" />
     <icon drawable="@drawable/themed_icon_gumslinger" name="MISSING" package="se.itatake.gumslinger" />
+    <icon drawable="@drawable/themed_icon_habitica" name="Habitica" package="com.habitrpg.android.habitica" />
     <icon drawable="@drawable/themed_icon_habitnow" name="MISSING" package="com.habitnow" />
     <icon drawable="@drawable/themed_icon_halkbank" name="MISSING" package="com.tmobtech.halkbank" />
     <icon drawable="@drawable/themed_icon_halyk" name="Halyk" package="kz.kkb.homebank" />
@@ -550,6 +561,7 @@
     <icon drawable="@drawable/themed_icon_ifood" name="MISSING" package="br.com.brainweb.ifood" />
     <icon drawable="@drawable/themed_icon_iherb" name="iHerb" package="com.iherb" />
     <icon drawable="@drawable/themed_icon_ime" name="MISSING" package="com.iMe.android" />
+    <icon drawable="@drawable/themed_icon_inaturalist" name="iNaturalist" package="org.inaturalist.android" />
     <icon drawable="@drawable/themed_icon_indriver" name="inDriver" package="sinet.startup.inDriver" />
     <icon drawable="@drawable/themed_icon_infinite_painter" name="Infinite Painter" package="com.brakefield.painter" />
     <icon drawable="@drawable/themed_icon_infinity" name="Infinity for Reddit" package="ml.docilealligator.infinityforreddit" />
@@ -562,6 +574,7 @@
     <icon drawable="@drawable/themed_icon_instagram" name="MISSING" package="com.instapro.android" />
     <icon drawable="@drawable/themed_icon_instapaper" name="Instapaper" package="com.instapaper.android" />
     <icon drawable="@drawable/themed_icon_inter" name="MISSING" package="br.com.intermedium" />
+    <icon drawable="@drawable/themed_icon_internshala" name="Internshala" package="com.internshala.app" />
     <icon drawable="@drawable/themed_icon_intersvyaz" name="MISSING" package="com.intersvyaz.lk" />
     <icon drawable="@drawable/themed_icon_ivi" name="MISSING" package="ru.ivi.client" />
     <icon drawable="@drawable/themed_icon_ivy_wallet" name="Ivy Wallet" package="com.ivy.wallet" />
@@ -690,6 +703,7 @@
     <icon drawable="@drawable/themed_icon_microsoft_planner" name="Microsoft Planner" package="com.microsoft.planner" />
     <icon drawable="@drawable/themed_icon_microsoft_powerpoint" name="Microsoft PowerPoint" package="com.microsoft.office.powerpoint" />
     <icon drawable="@drawable/themed_icon_microsoft_sharepoint" name="Microsoft SharePoint" package="com.microsoft.sharepoint" />
+    <icon drawable="@drawable/themed_icon_microsoft_start" name="Microsoft Start" package="com.microsoft.amp.apps.bingnews" />
     <icon drawable="@drawable/themed_icon_microsoft_teams" name="Microsoft Teams" package="com.microsoft.teams" />
     <icon drawable="@drawable/themed_icon_microsoft_todo" name="Microsoft To Do" package="com.microsoft.todos" />
     <icon drawable="@drawable/themed_icon_microsoft_word" name="Microsoft Word" package="com.microsoft.office.word" />
@@ -714,6 +728,7 @@
     <icon drawable="@drawable/themed_icon_modo" name="MISSING" package="com.playdigital.modo" />
     <icon drawable="@drawable/themed_icon_moey" name="MISSING" package="pt.moey.app" />
     <icon drawable="@drawable/themed_icon_mojo" name="MISSING" package="video.mojo" />
+    <icon drawable="@drawable/themed_icon_mondly" name="Mondly" package="com.atistudios.mondly.languages" />
     <icon drawable="@drawable/themed_icon_monect" name="MISSING" package="com.monect.portable" />
     <icon drawable="@drawable/themed_icon_money_lover" name="Money Lover" package="com.bookmark.money" />
     <icon drawable="@drawable/themed_icon_money_manager" name="Money Manager" package="com.realbyteapps.moneymanagerfree" />
@@ -738,6 +753,7 @@
     <icon drawable="@drawable/themed_icon_mypg" name="MyGP" package="com.portonics.mygp" />
     <icon drawable="@drawable/themed_icon_nagad" name="Nagad" package="com.konasl.nagad" />
     <icon drawable="@drawable/themed_icon_naptime" name="Naptime" package="com.franco.doze" />
+    <icon drawable="@drawable/themed_icon_natoora" name="Natoora" package="com.natoora.natoora" />
     <icon drawable="@drawable/themed_icon_naver_dict" name="Naver Dictionary" package="com.nhn.android.naverdic" />
     <icon drawable="@drawable/themed_icon_naver_map" name="Naver Map" package="com.nhn.android.nmap" />
     <icon drawable="@drawable/themed_icon_nekogram" name="MISSING" package="nekox.messenger" />
@@ -1089,6 +1105,7 @@
     <icon drawable="@drawable/themed_icon_tinkoff_investing" name="MISSING" package="ru.tinkoff.investing" />
     <icon drawable="@drawable/themed_icon_tmg" name="TMG" package="me.thedise.tmg" />
     <icon drawable="@drawable/themed_icon_todus" name="MISSING" package="cu.todus.android" />
+    <icon drawable="@drawable/themed_icon_tonkeeper" name="Tonkeeper" package="com.ton_keeper" />
     <icon drawable="@drawable/themed_icon_toolbox" name="Toolbox for Minecraft: PE" package="io.mrarm.mctoolbox" />
     <icon drawable="@drawable/themed_icon_topface" name="MISSING" package="com.topface.topface" />
     <icon drawable="@drawable/themed_icon_tor_browser" name="Tor Browser" package="org.torproject.torbrowser" />
@@ -1143,6 +1160,7 @@
     <icon drawable="@drawable/themed_icon_vanced_youtube" name="YouTube Vanced" package="com.vanced.android.youtube" />
     <icon drawable="@drawable/themed_icon_vectorassetcreator" name="MISSING" package="com.inglesdivino.vectorassetcreator" />
     <icon drawable="@drawable/themed_icon_venmo" name="Venmo" package="com.venmo" />
+    <icon drawable="@drawable/themed_icon_vero" name="Vero" package="co.vero.app" />
     <icon drawable="@drawable/themed_icon_vi_recharge" name="Vi: Recharge" package="com.mventus.selfcare.activity" />
     <icon drawable="@drawable/themed_icon_vi_red" name="Smart Mobility Red" package="com.smartmobilityred" />
     <icon drawable="@drawable/themed_icon_vi_yellow" name="Smart Mobility Yellow" package="app.smart.mobility.yellow" />
@@ -1166,6 +1184,7 @@
     <icon drawable="@drawable/themed_icon_vlc" name="VLC for Android" package="org.videolan.vlc" />
     <icon drawable="@drawable/themed_icon_vnc_server" name="VNC Server" package="com.realvnc.server" />
     <icon drawable="@drawable/themed_icon_vnc_viewer" name="VNC Viewer" package="com.realvnc.viewer.android" />
+    <icon drawable="@drawable/themed_icon_vocal_image" name="Vocal Image" package="app.vocalimage.bessia" />
     <icon drawable="@drawable/themed_icon_vodafone" name="Ana Vodafone" package="com.emeint.android.myservices" />
     <icon drawable="@drawable/themed_icon_vodafone" name="My Vodafone" package="com.vodafone.mcare" />
     <icon drawable="@drawable/themed_icon_vodafone" name="Vodafone Yanımda" package="com.vodafone.selfservis" />
