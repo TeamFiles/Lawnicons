@@ -43,17 +43,11 @@ public class Data extends Thread {
     }
 
     private static void loadLatestIcons() {
-        latestIcons.add(new Icon("Wise", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wise, null)));
-        latestIcons.add(new Icon("Relive", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_relive, null)));
-        latestIcons.add(new Icon("HiBy Music", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_hiby_music, null)));
-        latestIcons.add(new Icon("Mi Fitness", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_mi_fitness, null)));
-        latestIcons.add(new Icon("HryFine", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_hryfine, null)));
-        latestIcons.add(new Icon("M2wear", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_m2wear, null)));
-        latestIcons.add(new Icon("M2 Wear", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_m2_wear, null)));
-        latestIcons.add(new Icon("MasWear", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_maswear, null)));
-        latestIcons.add(new Icon("Wonderous", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_wonderous, null)));
-        latestIcons.add(new Icon("Lingvist", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_lingvist, null)));
-        latestIcons.add(new Icon("Tonkeeper", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_tonkeeper, null)));
+        latestIcons.add(new Icon("AOSP Enhancer", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_aosp_enhancer, null)));
+        latestIcons.add(new Icon("Audible", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_audible, null)));
+        latestIcons.add(new Icon("Pixelcut", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_pixelcut, null)));
+        latestIcons.add(new Icon("OnStream", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_onstream, null)));
+        latestIcons.add(new Icon("Internshala", ResourcesCompat.getDrawable(context.getResources(), R.drawable.themed_icon_internshala, null)));
 
         //Request Icons
         //latestIcons.add(new Icon("Request More", ResourcesCompat.getDrawable(context.getResources(), R.drawable.ic_request, null), true));
