@@ -220,6 +220,7 @@
     <icon drawable="@drawable/themed_icon_calculator_plus_plus" name="Calculator ++" package="org.solovyev.android.calculator" />
     <icon drawable="@drawable/themed_icon_calendar_9" name="Calendar" package="com.android.calendar" />
     <icon drawable="@drawable/themed_icon_calm" name="Calm" package="com.calm.android" />
+    <icon drawable="@drawable/themed_icon_camera" name="Aperture" package="org.lineageos.aperture" />
     <icon drawable="@drawable/themed_icon_camera" name="Camera" package="com.GoogleCamera.Burial" />
     <icon drawable="@drawable/themed_icon_camera" name="Camera" package="com.android.camera2" />
     <icon drawable="@drawable/themed_icon_camera" name="Camera" package="com.google.android.GoogleCameraEngR13F2" />
