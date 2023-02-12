@@ -2,20 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/page_home"
-        android:enabled="true"
+        android:id="@+id/homeFragment"
         android:icon="@drawable/selector_home"
         android:title="@string/page_home" />
 
     <item
-        android:id="@+id/page_icons"
-        android:enabled="true"
+        android:id="@+id/iconsFragment"
         android:icon="@drawable/selector_icons"
         android:title="@string/page_icons" />
 
     <item
-        android:id="@+id/page_about"
-        android:enabled="true"
+        android:id="@+id/aboutFragment"
         android:icon="@drawable/selector_info"
         android:title="@string/page_about" />
 

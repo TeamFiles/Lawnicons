@@ -5,10 +5,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fitsSystemWindows="false">
 
-    <FrameLayout
-        android:id="@+id/container"
-        android:layout_width="0dp"
+    <fragment
+        android:id="@+id/navHostFragment"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:navGraph="@navigation/main"
+        app:defaultNavHost="true"
         app:layout_constraintBottom_toTopOf="@id/bottomNav"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
