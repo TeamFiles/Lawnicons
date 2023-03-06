@@ -171,6 +171,7 @@
     <icon drawable="@drawable/themed_icon_bandlab" name="BandLab" package="com.bandlab.bandlab" />
     <icon drawable="@drawable/themed_icon_battery_guru" name="Battery Guru" package="com.paget96.batteryguru" />
     <icon drawable="@drawable/themed_icon_battle_prime" name="Battle Prime" package="com.blitzteam.battleprime" />
+    <icon drawable="@drawable/themed_icon_basic_call_recorder" name="Basic Call Recorder" package="com.chiller3.bcr" />
     <icon drawable="@drawable/themed_icon_beeline" name="Мой Beeline (Казахстан)" package="kz.beeline.odp" />
     <icon drawable="@drawable/themed_icon_behance" name="Behance" package="com.behance.behance" />
     <icon drawable="@drawable/themed_icon_belarus_bank" name="M-Belarusbank" package="com.mobicon.mbank2.belarusbank" />
@@ -312,6 +313,7 @@
     <icon drawable="@drawable/themed_icon_coinsph" name="Coins.ph – Buy Bitcoin, Crypto" package="asia.coins.mobile" />
     <icon drawable="@drawable/themed_icon_coinvero" name="Candlestick Signals Patterns" package="com.candlestick" />
     <icon drawable="@drawable/themed_icon_coinvero" name="Candlestick Signals Patterns" package="com.candlestick_app" />
+    <icon drawable="@drawable/themed_icon_color_picker" name="Color Picker" package="gmikhail.colorpicker" />
     <icon drawable="@drawable/themed_icon_colorwaver" name="Colorwaver" package="com.mrousavy.colorwaver" />
     <icon drawable="@drawable/themed_icon_companion" name="Home Assistant" package="io.homeassistant.companion.android" />
     <icon drawable="@drawable/themed_icon_compass" name="Compass" package="apps.r.compass" />
@@ -419,6 +421,7 @@
     <icon drawable="@drawable/themed_icon_fallout_shelter" name="Fallout Shelter" package="com.bethsoft.falloutshelter" />
     <icon drawable="@drawable/themed_icon_family_link" name="Google Family Link" package="com.google.android.apps.kids.familylink" />
     <icon drawable="@drawable/themed_icon_family_link_ct" name="Family Link" package="com.google.android.apps.kids.familylinkhelper" />
+    <icon drawable="@drawable/themed_icon_fampay" name="FamPay" package="com.fampay.in" />
     <icon drawable="@drawable/themed_icon_fasthub" name="FastHub for GitHub" package="com.fastaccess.github" />
     <icon drawable="@drawable/themed_icon_fasthub" name="MISSING" package="com.fastaccess.github.debug" />
     <icon drawable="@drawable/themed_icon_fasting" name="Fasting" package="bodyfast.zero.fastingtracker.weightloss" />
@@ -579,6 +582,7 @@
     <icon drawable="@drawable/themed_icon_instagram" name="MISSING" package="com.instander.android" />
     <icon drawable="@drawable/themed_icon_instagram" name="MISSING" package="com.instapro.android" />
     <icon drawable="@drawable/themed_icon_instapaper" name="Instapaper" package="com.instapaper.android" />
+    <icon drawable="@drawable/themed_icon_intel_unison" name="Intel Unison" package="com.intel.mde" />
     <icon drawable="@drawable/themed_icon_inter" name="MISSING" package="br.com.intermedium" />
     <icon drawable="@drawable/themed_icon_internshala" name="Internshala" package="com.internshala.app" />
     <icon drawable="@drawable/themed_icon_intersvyaz" name="MISSING" package="com.intersvyaz.lk" />
@@ -600,6 +604,7 @@
     <icon drawable="@drawable/themed_icon_kde_connect" name="KDE Connect" package="org.kde.kdeconnect_tp" />
     <icon drawable="@drawable/themed_icon_keep" name="Google Keep" package="com.google.android.keep" />
     <icon drawable="@drawable/themed_icon_keiromaker" name="MISSING" package="com.keriomaker.smart" />
+    <icon drawable="@drawable/themed_icon_kggm_material" name="KGGM Material" package="android12kggm.kustom.pack" />
     <icon drawable="@drawable/themed_icon_khan_academy" name="Khan Academy" package="org.khanacademy.android" />
     <icon drawable="@drawable/themed_icon_kinemaster" name="KineMaster" package="com.nexstreaming.app.kinemasterfree" />
     <icon drawable="@drawable/themed_icon_kino_hd" name="MISSING" package="full.khd.app" />
@@ -885,6 +890,7 @@
     <icon drawable="@drawable/themed_icon_powerdirector" name="PowerDirector" package="com.cyberlink.powerdirector.DRA140225_01" />
     <icon drawable="@drawable/themed_icon_powertube" name="Powertube" package="ussr.razar.youtube_dl" />
     <icon drawable="@drawable/themed_icon_prime_video" name="Amazon Prime Video" package="com.amazon.avod.thirdpartyclient" />
+    <icon drawable="@drawable/themed_icon_pro_coding" name="Pro Coding" package="com.pradhyu.procoding" />
     <icon drawable="@drawable/themed_icon_progressbar95" name="MISSING" package="com.spookyhousestudios.progressbar95" />
     <icon drawable="@drawable/themed_icon_project_themer" name="MISSING" package="com.drsants.eggproject" />
     <icon drawable="@drawable/themed_icon_proton_vpn" name="Proton VPN" package="ch.protonvpn.android" />
